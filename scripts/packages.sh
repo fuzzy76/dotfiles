@@ -31,15 +31,16 @@ packages=(
 apptivate apptrap atom
 crashplan
 delivery-status dropbox
-flash-player fluid firefox
-google-drive google-chrome
+evernote
+flash-player fluid firefox focus
+google-drive google-chrome gifs
 handbrake hex-fiend
 java
 libreoffice
-makemkv
+makemkv macid
 omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm
-semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station
+semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station skitch
 teamviewer the-unarchiver
 vlc
 wordservice
