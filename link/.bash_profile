@@ -2,8 +2,7 @@
 # Environment variables
 ########################
 
-export PATH="$HOME/repos/dotfiles/bin:$HOME/.composer/vendor/bin:$HOME/bin:$HOME/cloud/bin:$PATH"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/pear/bin:$PATH"
+export PATH="$HOME/repos/dotfiles/bin:$HOME/bin:$HOME/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 export EDITOR=nano
 export GREP_OPTIONS='--color=auto'

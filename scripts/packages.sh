@@ -10,7 +10,7 @@ fi
 packages=(
 ffmpeg
 hr htop-osx
-mariadb mtr
+mariadb mtr mosh
 ruby
 ssh-copy-id
 terminal-notifier
