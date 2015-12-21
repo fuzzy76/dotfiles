@@ -53,6 +53,7 @@ done
 
 # Gems
 gem install pro
+gem install tmuxinator
 
 # Composer
 curl -sS https://getcomposer.org/installer | php
