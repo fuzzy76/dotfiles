@@ -42,3 +42,11 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Timing
 * Mindnode Pro 1
 * Mindful Mynah
+
+#Personal pre-reinstall checklist
+* Check all folders under ~
+* Save ~/Downloads
+* Save open tabs in Safari (rest should be synced)
+* Make sure Photos.app is done syncing
+* Transfer ssh key if desired
+* Clean up Desktop
