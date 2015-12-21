@@ -6,6 +6,13 @@ My dotfiles repo, without me, is useless. Without my dotfiles repo, I am useless
 
 So... yeah... Here it is. Instructions and documentation are coming.
 
+#Dotwhat?
+* [Dotfiles tutorial for OS X](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
+* [Dotfiles resource](https://dotfiles.github.io)
+* [Generic dotfiles tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
+* [Supposedly the best of the crop](https://github.com/mathiasbynens/dotfiles)
+*
+
 # Install new Mac
 
 1. Boot up the Mac, adding iCloud.
@@ -18,3 +25,4 @@ So... yeah... Here it is. Instructions and documentation are coming.
 * Figure out which apps needs to be added to autostart
 * Figure out a better way to configure cloud syncing
 * Consider phpenv end rbenv
+* Automate symlinking

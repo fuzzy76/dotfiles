@@ -31,8 +31,8 @@ packages=(
 apptivate apptrap atom
 crashplan
 delivery-status dropbox
-flash-player fluid
-goog-edrive
+flash-player fluid firefox
+google-drive google-chrome
 handbrake hex-fiend
 java
 libreoffice
@@ -61,3 +61,13 @@ for item in ${packages[*]}
 do
   composer global require $item
 done
+
+# Atom plugins
+# (apm is probably not available directly until the command line tool has been installed from within Atom)
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install atom-autocomplete-php
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install php-twig
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install imdone-atom
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install symbols-tree-view
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter-php
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter-shellcheck

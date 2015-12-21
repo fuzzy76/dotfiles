@@ -18,6 +18,15 @@ sudo scutil –-set LocalHostName $name
 # Set up some local folders
 mkdir ~/bin
 mkdir ~/repos
+git config --global core.excludesfile ~/.gitignore_global
+
+# Symlink stuff
+ln -s link/.bash_profile $HOME
+ln -s link/.ctags $HOME
+ln -s link/.gitignore_global $HOME
+ln -s link/.tmux.conf $HOME
+ln -s link/.tmuxinator $HOME
+rm $HOME/.ssh/config ; ln -s link_special/ssh_config $HOME/.ssh/config
 
 # Run scripts
 source scripts/settings.sh
