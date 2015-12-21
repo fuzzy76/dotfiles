@@ -1,8 +1,12 @@
 #Fuzzy76's dotfiles repo
 
-<pre>This is my dotfiles repo. There are many like it, but this one is mine.
-My dotfiles repo is my best friend. It is my life. I must master it as I must master my life.
-My dotfiles repo, without me, is useless. Without my dotfiles repo, I am useless.</pre>
+<pre>This is my dotfiles repo.
+There are many like it, but this one is mine.
+My dotfiles repo is my best friend.
+It is my life.
+I must master it as I must master my life.
+My dotfiles repo, without me, is useless.
+Without my dotfiles repo, I am useless.</pre>
 
 #Dotwhat?
 A dotfiles repository is a repository for my personal configuration and computer setup. Fork it if you want. Have some links:
