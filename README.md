@@ -70,3 +70,4 @@ A dotfiles repository is a repository for my personal configuration and computer
 * [Dreditor](https://dreditor.org)
 * [Minimal Status Bar](https://visnup.github.io/Minimal-Status-Bar/)
 * [Disconnect](https://disconnect.me/disconnect)
+* [Synology Download Station](https://www.download-station-extension.com)
