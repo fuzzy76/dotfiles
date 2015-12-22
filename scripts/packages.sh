@@ -34,7 +34,7 @@ brew tap caskroom/cask
 packages=(
 apptivate apptrap atom
 crashplan
-delivery-status dropbox
+dropbox
 evernote
 flash-player fluid firefox focus
 google-drive google-chrome gifs
@@ -62,7 +62,7 @@ gem install tmuxinator
 # Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
-packages=("d11wtq/boris" "drush/drush" )
+packages=("d11wtq/boris" "drush/drush" "squizlabs/php_codesniffer=*")
 for item in ${packages[*]}
 do
   composer global require $item
@@ -70,10 +70,4 @@ done
 
 # Atom plugins
 # (apm is probably not available directly until the command line tool has been installed from within Atom)
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install atom-autocomplete-php
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install php-twig
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install imdone-atom
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install symbols-tree-view
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter-php
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install linter-shellcheck
+/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install --packages-file conf/atom-packages.txt

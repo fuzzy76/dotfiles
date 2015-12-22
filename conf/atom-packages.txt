@@ -1,0 +1,9 @@
+atom-autocomplete-php
+php-twig
+imdone-atom
+imdone-atom-github
+symbols-tree-view
+linter
+linter-php
+linter-shellcheck
+linter-twig
