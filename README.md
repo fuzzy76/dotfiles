@@ -50,3 +50,5 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Make sure Photos.app is done syncing
 * Transfer ssh key if desired
 * Clean up Desktop
+* Save any virtual machines
+* iTunes library
