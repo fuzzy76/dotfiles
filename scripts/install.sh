@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Functions
-
+DOTFILES=$HOME/repos/dotfiles
 # function ensurecommand { command -v $1 >/dev/null 2>&1 || { echo "$1 missing. Make sure it is available before running." >&2; exit 1; }; }
 function promptstring { osascript -e "Tell application \"System Events\" to display dialog \"$1\" default answer \"\"" -e 'text returned of result' 2>/dev/null; }
 
@@ -23,12 +22,12 @@ mkdir ~/repos
 git config --global core.excludesfile ~/.gitignore_global
 
 # Symlink stuff
-ln -s link/.bash_profile $HOME
-ln -s link/.ctags $HOME
-ln -s link/.gitignore_global $HOME
-ln -s link/.tmux.conf $HOME
-ln -s link/.tmuxinator $HOME
-rm $HOME/.ssh/config ; ln -s link_special/ssh_config $HOME/.ssh/config
+ln -s $DOTFILES/link/.bash_profile $HOME
+ln -s $DOTFILES/link/.ctags $HOME
+ln -s $DOTFILES/link/.gitignore_global $HOME
+ln -s $DOTFILES/link/.tmux.conf $HOME
+ln -s $DOTFILES/link/.tmuxinator $HOME
+rm $HOME/.ssh/config ; ln -s $DOTFILES/link_special/ssh_config $HOME/.ssh/config
 
 # Run scripts
 source ~/.bash_profile # Make sure PATH is set up
