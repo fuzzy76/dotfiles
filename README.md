@@ -19,6 +19,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 1. Boot up the Mac, adding an iCloud account.
 2. Open App store, install all updates.
 3. Install XCode.
+4. If you want to keep an existing key, install it before proceeding.
 4. Open terminal and paste ```wget https://github.com/fuzzy76/dotfiles/raw/master/scripts/start.sh -O - | bash```
 
 # Todo (this will be moved to issues once I feel the repo is stable)
@@ -41,3 +42,13 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Timing
 * Mindnode Pro 1
 * Mindful Mynah
+
+#Personal pre-reinstall checklist
+* Check all folders under ~
+* Save ~/Downloads
+* Save open tabs in Safari (rest should be synced)
+* Make sure Photos.app is done syncing
+* Transfer ssh key if desired
+* Clean up Desktop
+* Save any virtual machines
+* iTunes library
