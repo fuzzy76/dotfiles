@@ -42,7 +42,7 @@ omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm
 semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station skitch
 teamviewer the-unarchiver
-vlc
+vlc vagrant virtualbox virtualbox-extension-pack
 wordservice
 xquartz
 )
