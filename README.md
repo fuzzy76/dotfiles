@@ -15,7 +15,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * [Generic dotfiles tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
 * [Supposedly the best of the crop](https://github.com/mathiasbynens/dotfiles)
 
-# Install new Mac
+#Install new Mac
 1. Boot up the Mac, adding an iCloud account.
 2. Open App store, install all updates.
 3. Install XCode, and run ```sudo xcodebuild -license```
@@ -24,7 +24,8 @@ A dotfiles repository is a repository for my personal configuration and computer
 6. Do the App store manual installs below
 7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
 
-# Todo (this will probably be moved to issues once I feel the repo is stable)
+#Todo
+These will probably be moved to issues once I feel the repo is stable:
 * Figure out which apps needs to be added to autostart
 * Figure out a better way to configure cloud syncing
 * Consider phpenv end rbenv
@@ -35,7 +36,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
 * Some packages (crashplan, teamviewer, etc) are specific for a particular computer.
 
-#App store manual installs
+#App store manual install
 * Divvy
 * HardwareGrowler
 * Pixelmator
