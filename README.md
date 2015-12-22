@@ -31,6 +31,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Convert some of my personal repositories (bashquote, medials, etc) into composer packages
 * Themes for atom, phpstorm and terminal
 * Plugins for phpstorm
+* [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
 
 #App store manual installs
 * Divvy

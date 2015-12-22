@@ -30,7 +30,6 @@ ln -s $DOTFILES/link/.tmuxinator $HOME
 rm $HOME/.ssh/config ; ln -s $DOTFILES/link_special/ssh_config $HOME/.ssh/config
 
 # Run scripts
-source ~/.bash_profile # Make sure PATH is set up
 source scripts/settings.sh
 source scripts/packages.sh
 

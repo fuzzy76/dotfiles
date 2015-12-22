@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Since we might run on the system default .bash_profile, we need to fix the paths here
+export PATH="$HOME/repos/dotfiles/bin:$HOME/bin:$HOME/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 # Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
