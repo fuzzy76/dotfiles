@@ -1,9 +1,12 @@
 atom-autocomplete-php
-php-twig
+drupal
+editorconfig
 imdone-atom
 imdone-atom-github
-symbols-tree-view
 linter
 linter-php
+linter-phpcs
 linter-shellcheck
 linter-twig
+php-twig
+symbols-tree-view

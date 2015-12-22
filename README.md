@@ -32,6 +32,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Themes for atom, phpstorm and terminal
 * Plugins for phpstorm
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
+* Some packages (crashplan, teamviewer, etc) are specific for a particular computer.
 
 #App store manual installs
 * Divvy
@@ -54,3 +55,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Clean up Desktop
 * Save any virtual machines
 * iTunes library
+
+#Other stuff I might want to transfer:
+* ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
+* crontab
