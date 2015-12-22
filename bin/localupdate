@@ -2,20 +2,18 @@
 
 #Ensure root permissions early on
 sudo -v -p "Enter password for PHP-switching:" >/dev/null
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 echo "Upgrading homebrew repository"
 brew update # Update homebrew recipes
-sudo -v
 
 echo "Homebrew upgrade using PHP 5.4.x"
 brew-php-switcher 54
 brew upgrade --all
-sudo -v
 
 echo "Homebrew upgrade using PHP 5.3.x"
 brew-php-switcher 53
 brew upgrade --all
-sudo -v
 
 echo "Homebrew general maintenance"
 brew linkapps # Link apps
@@ -23,12 +21,10 @@ brew cleanup # Remove old/obsolete versions from cellar
 brew cask cleanup # Remove old/obsolete cask versions from cellar
 brew prune # Remove dead symlinks
 brew doctor # Report any potential problems
-sudo -v
 
 echo "Composer update"
 composer selfupdate # Upgrade composer
 composer global update # Upgrade any global packages
-sudo -v
 
 echo "Gem update"
 #sudo gem update --system
