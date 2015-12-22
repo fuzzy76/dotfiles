@@ -20,7 +20,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 2. Open App store, install all updates.
 3. Install XCode.
 4. If you want to use an existing key, install it before proceeding.
-5. Open terminal and paste ```curl -s https://github.com/fuzzy76/dotfiles/raw/master/scripts/start.sh | bash```
+5. Open terminal and paste ```curl -s https://raw.githubusercontent.com/fuzzy76/dotfiles/master/scripts/start.sh | bash```
 6. Do the App store manual installs below
 
 # Todo (this will probably be moved to issues once I feel the repo is stable)
