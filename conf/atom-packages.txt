@@ -10,3 +10,4 @@ linter-shellcheck
 linter-twig
 php-twig
 symbols-tree-view
+zenburn

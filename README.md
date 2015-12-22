@@ -47,6 +47,9 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Mindnode Pro 1
 * Mindful Mynah
 
+#Other stuff
+* [Zenburn for terminal.app]()
+
 #Personal pre-reinstall checklist
 * Check all folders under ~
 * Save ~/Downloads
