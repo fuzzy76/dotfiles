@@ -47,20 +47,18 @@ A dotfiles repository is a repository for my personal configuration and computer
 * Mindnode Pro 1
 * Mindful Mynah
 
-#Other stuff
-* [Zenburn for terminal.app]()
+#Other stuff to install manually
+* [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
 
 #Personal pre-reinstall checklist
 * Check all folders under ~
-* Save ~/Downloads
+* Transfer ~/Downloads
 * Save open tabs in Safari (rest should be synced)
 * Make sure Photos.app is done syncing
 * Transfer ssh key if desired
 * Clean up Desktop
 * Save any virtual machines
 * iTunes library
-
-#Other stuff I might want to transfer:
 * ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
 * crontab
 
