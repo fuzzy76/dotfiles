@@ -19,10 +19,11 @@ A dotfiles repository is a repository for my personal configuration and computer
 1. Boot up the Mac, adding an iCloud account.
 2. Open App store, install all updates.
 3. Install XCode.
-4. If you want to keep an existing key, install it before proceeding.
-4. Open terminal and paste ```wget https://github.com/fuzzy76/dotfiles/raw/master/scripts/start.sh -O - | bash```
+4. If you want to use an existing key, install it before proceeding.
+5. Open terminal and paste ```curl -s https://github.com/fuzzy76/dotfiles/raw/master/scripts/start.sh | bash```
+6. Do the App store manual installs below
 
-# Todo (this will be moved to issues once I feel the repo is stable)
+# Todo (this will probably be moved to issues once I feel the repo is stable)
 * Figure out which apps needs to be added to autostart
 * Figure out a better way to configure cloud syncing
 * Consider phpenv end rbenv
