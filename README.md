@@ -22,6 +22,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 4. If you want to use an existing key, install it before proceeding (chmod 700).
 5. Open terminal and paste ```curl -s https://raw.githubusercontent.com/fuzzy76/dotfiles/master/scripts/start.sh | bash```
 6. Do the App store manual installs below
+7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
 
 # Todo (this will probably be moved to issues once I feel the repo is stable)
 * Figure out which apps needs to be added to autostart

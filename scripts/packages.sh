@@ -32,7 +32,7 @@ brew install michaeldfallen/formula/git-radar
 # Homebrew cask
 brew tap caskroom/cask
 packages=(
-apptivate apptrap atom
+apptivate apptrap atom aerial
 crashplan
 dropbox
 evernote
