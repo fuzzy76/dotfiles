@@ -10,11 +10,14 @@ if [ ! -f $HOME/.ssh/id_rsa ]; then
 fi
 
 # Set hostname
-name=`promptstring 'Enter friendly computer name'`
+name=`promptstring 'Enter friendly (full) computer name'`
 sudo scutil –-set ComputerName $name
 name=`promptstring 'Enter shortform computer name'`
 sudo scutil –-set HostName $name
 sudo scutil –-set LocalHostName $name
+name=`promptstring 'Enter your mail address'`
+git config --global user.name "Håvard Pedersen"
+git config --global user.email $name
 
 # Set up some local folders
 mkdir ~/bin
