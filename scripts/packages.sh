@@ -37,7 +37,7 @@ apptivate apptrap atom aerial
 crashplan
 dropbox
 evernote
-flash-player fluid firefox focus
+flash fluid firefox focus
 font-inconsolata
 google-drive google-chrome gifs
 handbrake hex-fiend
