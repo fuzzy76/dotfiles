@@ -31,12 +31,14 @@ brew install michaeldfallen/formula/git-radar
 
 # Homebrew cask
 brew tap caskroom/cask
+brew tap caskroom/fonts
 packages=(
 apptivate apptrap atom aerial
 crashplan
 dropbox
 evernote
 flash-player fluid firefox focus
+font-inconsolata
 google-drive google-chrome gifs
 handbrake hex-fiend
 java
