@@ -113,6 +113,10 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 2
 # Show all processes in Activity Monitor
 defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
+# Scrollbars visibility
+defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
+# Possible values: `WhenScrolling`, `Automatic` and `Always`
+
 #
 # S A F A R I
 #
@@ -134,3 +138,13 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 # Display emails in threaded mode
 defaults write com.apple.mail DraftsViewerAttributes -dict-add "DisplayInThreadedMode" -string "yes"
+
+#
+# C A L E N D A R
+#
+
+# Show week numbers (10.8 only)
+defaults write com.apple.iCal "Show Week Numbers" -bool true
+
+# Week starts on monday
+defaults write com.apple.iCal "first day of week" -int 1
