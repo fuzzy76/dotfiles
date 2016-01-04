@@ -117,6 +117,10 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 # Possible values: `WhenScrolling`, `Automatic` and `Always`
 
+# Enable rightclick
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
+defaults write /Library/Preferences/com.apple.driver.AppleHIDMouse.plist Button2 -int 2
+
 #
 # S A F A R I
 #
