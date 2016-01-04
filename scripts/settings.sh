@@ -121,6 +121,10 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
 defaults write /Library/Preferences/com.apple.driver.AppleHIDMouse.plist Button2 -int 2
 
+# Disable fast user switching
+defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool false
+
+
 #
 # S A F A R I
 #
@@ -132,6 +136,9 @@ defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+
+# Safari opens with last session
+defaults write com.apple.Safari AlwaysRestoreSessionAtLaunch -bool true
 
 #
 # M A I L
