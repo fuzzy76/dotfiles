@@ -35,6 +35,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Plugins for phpstorm
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
 * Some packages (crashplan, teamviewer, etc) are specific for a particular computer.
+* Github tokens for composer and homebrew
 
 #App store manual install
 * Divvy
@@ -77,3 +78,4 @@ These will probably be moved to issues once I feel the repo is stable:
 #Settings I couldn't automate
 * Mission control on mousebutton 4
 * Change Safari search engine to Duck Duck Go
+* Change menubar clock from weekday to date
