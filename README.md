@@ -73,3 +73,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * [Minimal Status Bar](https://visnup.github.io/Minimal-Status-Bar/)
 * [Disconnect](https://disconnect.me/disconnect)
 * [Synology Download Station](https://www.download-station-extension.com)
+
+#Settings I couldn't automate
+* Mission control on mousebutton 4
+* Change Safari search engine to Duck Duck Go
