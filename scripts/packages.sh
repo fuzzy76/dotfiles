@@ -16,7 +16,7 @@ ffmpeg
 hr htop-osx
 mariadb mtr mosh
 ruby
-ssh-copy-id
+shellcheck ssh-copy-id
 terminal-notifier
 wget
 youtube-dl
