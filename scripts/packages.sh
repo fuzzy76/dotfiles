@@ -18,7 +18,7 @@ mariadb mtr mosh
 npm
 ruby
 shellcheck ssh-copy-id
-terminal-notifier
+terminal-notifier tmux
 wget
 youtube-dl
 )
