@@ -86,6 +86,9 @@ defaults write com.apple.dock wvous-br-modifier -int 0
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
+# Disable spelling corrections
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
 # Disable smart quotes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
@@ -123,7 +126,6 @@ defaults write /Library/Preferences/com.apple.driver.AppleHIDMouse.plist Button2
 
 # Disable fast user switching
 defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool false
-
 
 #
 # S A F A R I
