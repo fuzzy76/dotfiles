@@ -15,6 +15,7 @@ packages=(
 ffmpeg
 hr htop-osx
 mariadb mtr mosh
+npm
 ruby
 shellcheck ssh-copy-id
 terminal-notifier
