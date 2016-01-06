@@ -24,6 +24,17 @@ A dotfiles repository is a repository for my personal configuration and computer
 6. Do the App store manual installs below
 7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
 
+#Components
+* scripts/start.sh - a bootstrap script for doing a one-line install (see point 5 above). Checks requirements, does a git clone and starts install.sh.
+* scripts/install.sh - main script for handling installation.
+* scripts/packages.sh - install packagehandlers (homebrew, homebrew cask, gem, npm, composer) and packages.
+* scripts/settings.sh - tweak settings to my liking.
+* bin/* - bash scripts added to the path of the system.
+* conf/* - config files used during installation, but not linked anywhere.
+* git-hooks/* - git hooks. Not finished.
+* link/* - config files symlinked to ~/
+* link_special/* - config files symlinked elsewhere.
+
 #Todo
 These will probably be moved to issues once I feel the repo is stable:
 * Figure out which apps needs to be added to autostart
@@ -34,8 +45,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * Themes for atom, phpstorm and terminal
 * Plugins for phpstorm
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
-* Some packages (crashplan, teamviewer, etc) are specific for a particular computer.
-* Github tokens for composer and homebrew
+* Some packages (crashplan, teamviewer, focus etc) are only for some of my computers.
+* Github tokens for composer and homebrew.
 
 #App store manual install
 * Divvy
