@@ -62,6 +62,14 @@ These will probably be moved to issues once I feel the repo is stable:
 
 #Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
+* Company software (Office)
+* Company VPN (add Cisco IPSec config)
+* Browser extensions (see list below)
+
+#Settings I couldn't automate
+* Mission control on mousebutton 4
+* Change Safari search engine to Duck Duck Go
+* Change menubar clock from weekday to date
 
 #Personal pre-reinstall checklist
 * Check all folders under ~
@@ -74,6 +82,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * iTunes library
 * ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
 * crontab
+* Check repositories for uncommited changes
 
 #Safari extensions
 * [ClickToPlugin](http://hoyois.github.io/safariextensions/clicktoplugin/)
@@ -85,8 +94,3 @@ These will probably be moved to issues once I feel the repo is stable:
 * [Minimal Status Bar](https://visnup.github.io/Minimal-Status-Bar/)
 * [Disconnect](https://disconnect.me/disconnect)
 * [Synology Download Station](https://www.download-station-extension.com)
-
-#Settings I couldn't automate
-* Mission control on mousebutton 4
-* Change Safari search engine to Duck Duck Go
-* Change menubar clock from weekday to date
