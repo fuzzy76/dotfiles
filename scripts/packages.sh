@@ -40,7 +40,7 @@ dropbox
 evernote
 flash fluid firefox focus
 font-inconsolata
-google-drive google-chrome gifs
+gas-mask google-drive google-chrome gifs
 handbrake hex-fiend
 java
 libreoffice
