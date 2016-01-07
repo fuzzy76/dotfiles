@@ -125,7 +125,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode T
 defaults write /Library/Preferences/com.apple.driver.AppleHIDMouse.plist Button2 -int 2
 
 # Disable fast user switching
-defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool false
+sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool false
 
 #
 # S A F A R I
