@@ -30,6 +30,7 @@ source $HOME/repos/dotfiles/bin/git-completion.sh
 #alias weechat="ssh -t matilda.fuzzy76.net ./weechat.sh"
 alias weechat="mosh matilda.fuzzy76.net ./weechat.sh"
 alias cloudconflict="find ~/CloudStation/ -name *_Conflict.* ; find ~/CloudStation/ -name *_Conflict"
+alias drupalcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
 
 ############
 # Functions

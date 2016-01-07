@@ -65,7 +65,7 @@ gem install tmuxinator
 # Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
-packages=("d11wtq/boris" "drush/drush" "squizlabs/php_codesniffer=*")
+packages=("d11wtq/boris" "drush/drush" "squizlabs/php_codesniffer=*" "drupal/coder")
 for item in ${packages[*]}
 do
   composer global require $item

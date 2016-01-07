@@ -36,6 +36,9 @@ rm $HOME/.ssh/config ; ln -s $DOTFILES/link_special/ssh_config $HOME/.ssh/config
 source scripts/settings.sh
 source scripts/packages.sh
 
+# Package configuration
+phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
+
 # Symlink some repo binaries in
 git clone git@github.com:fuzzy76/medials.git ~/repos/medials
 chmod +x ~/repos/medials/medials
