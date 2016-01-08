@@ -1,40 +1,29 @@
 #!/bin/sh
 
-#Ensure root permissions early on
-sudo -v -p "Enter password for PHP-switching:" >/dev/null
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
-echo "Upgrading homebrew repository"
+echo "*** Homebrew"
 brew update # Update homebrew recipes
-
-echo "Homebrew upgrade"
 brew upgrade --all
-
-echo "Homebrew general maintenance"
 brew linkapps # Link apps
 brew cleanup # Remove old/obsolete versions from cellar
 brew cask cleanup # Remove old/obsolete cask versions from cellar
 brew prune # Remove dead symlinks
 brew doctor # Report any potential problems
 
-echo "Composer update"
+echo "*** Composer update"
 composer selfupdate # Upgrade composer
 composer global update # Upgrade any global packages
 
-echo "Gem update"
-#sudo gem update --system
+echo "*** Gem update"
 gem update --system
 
-echo "App store update"
+echo "*** App store update"
 sudo softwareupdate -l
 
-echo "Npm update"
+echo "*** Npm update"
 npm install npm -g
 npm update -g
 
-echo "Dotfiles repo"
+echo "*** Dotfiles repo"
 cd $HOME/repos/dotfiles || exit;
-git pull
-git commit -a
-git push
+git pull ; git commit -a ; git push
 cd $OLDPWD || exit;
