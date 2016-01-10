@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "*** App store update"
+softwareupdate -l
+
 echo "*** Homebrew"
 brew update # Update homebrew recipes
 brew upgrade --all
@@ -15,9 +18,6 @@ composer global update # Upgrade any global packages
 
 echo "*** Gem update"
 gem update --system
-
-echo "*** App store update"
-sudo softwareupdate -l
 
 echo "*** Npm update"
 npm install npm -g
