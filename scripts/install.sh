@@ -25,6 +25,7 @@ mkdir ~/repos
 git config --global core.excludesfile ~/.gitignore_global
 
 # Symlink stuff
+ln -s $DOTFILES/link/.ackrc $HOME
 ln -s $DOTFILES/link/.bash_profile $HOME
 ln -s $DOTFILES/link/.ctags $HOME
 ln -s $DOTFILES/link/.gitignore_global $HOME
