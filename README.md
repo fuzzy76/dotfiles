@@ -70,6 +70,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Mission control on mousebutton 4
 * Change Safari search engine to Duck Duck Go
 * Change menubar clock from weekday to date
+* Add ```git@github.com:fuzzy76/intellij-settings.git``` as a PhpStorm settings repository
 
 #Personal pre-reinstall checklist
 * Check all folders under ~
