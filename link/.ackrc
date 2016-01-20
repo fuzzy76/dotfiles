@@ -1,4 +1,4 @@
 --type-add=php:ext:module
---type-set=nosearch:ext:min.js
---type-add=nosearch:ext:phar
+--type-set=compiled:ext:min.js
+--type-add=compiled:ext:phar
 --type-add=sass:ext:scssc
