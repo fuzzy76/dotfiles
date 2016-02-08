@@ -1,0 +1,9 @@
+include /usr/local/share/nano/default.nanorc
+include /usr/local/share/nano/sh.nanorc
+include /usr/local/share/nano/php.nanorc
+include /usr/local/share/nano/html.nanorc
+include /usr/local/share/nano/css.nanorc
+include /usr/local/share/nano/json.nanorc
+
+set nowrap
+set const

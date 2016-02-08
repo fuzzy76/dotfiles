@@ -1,3 +1,6 @@
+ServerAliveInterval 30
+TCPKeepAlive yes
+
 Host spiralis.ttl.telemed.no
     Port 2121
 

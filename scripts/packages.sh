@@ -15,7 +15,7 @@ packages=(
 ffmpeg
 hr htop-osx
 mariadb mtr mosh
-npm
+npm homebrew/dupes/nano
 ruby
 shellcheck ssh-copy-id
 terminal-notifier tmux
