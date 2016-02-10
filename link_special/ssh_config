@@ -16,3 +16,9 @@ Host slutta.telemed.no
 Host gitlab.telemed.no
     User havardp
 
+Host hk1
+    Hostname 212.71.249.216
+
+Host hk2
+    Hostname 178.79.180.94
+
