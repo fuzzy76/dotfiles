@@ -1,0 +1,9 @@
+[core]
+	excludesfile = /Users/fuzzy76/.gitignore_global
+[push]
+	default = simple
+[user]
+	name = Håvard Pedersen
+	email = fuzzy76@fuzzy76.net
+[alias]
+	all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
