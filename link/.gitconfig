@@ -6,4 +6,5 @@
 	name = Håvard Pedersen
 	email = fuzzy76@fuzzy76.net
 [alias]
-	all = "!f() { ls | xargs -I{} git -C {} $1; }; f"
+  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
