@@ -2,3 +2,7 @@
 --type-set=compiled:ext:min.js
 --type-add=compiled:ext:phar
 --type-add=sass:ext:scssc
+--type-add=drupalcode:ext:inc
+--type-add=drupalcode:ext:module
+--type-add=drupalcode:ext:php
+--type-add=drupalcode:ext:install
