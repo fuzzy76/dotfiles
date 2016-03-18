@@ -1,6 +1,13 @@
 #!/bin/bash
 
 #
+# N OT   D E F A U L T S
+#
+
+# Use Atom for git
+git config --global core.editor "atom --wait"
+
+#
 # F I N D E R
 #
 

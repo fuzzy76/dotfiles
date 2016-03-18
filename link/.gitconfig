@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/fuzzy76/.gitignore_global
+	editor = atom --wait
 [push]
 	default = simple
 [user]

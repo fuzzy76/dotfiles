@@ -5,12 +5,14 @@
 
 export PATH="$HOME/repos/dotfiles/bin:$HOME/bin:$HOME/.composer/vendor/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
-export EDITOR=nano
+#export EDITOR=nano
+export EDITOR="atom -nw"
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
+
 
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
