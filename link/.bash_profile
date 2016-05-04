@@ -11,8 +11,7 @@ export CLICOLOR=1
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
-export LC_ALL="nb_NO.UTF-8"
-export LANG="nb_NO.UTF-8"
+	
 
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
