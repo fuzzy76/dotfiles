@@ -11,7 +11,7 @@ export CLICOLOR=1
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
-	
+
 
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_COMMAND} ${PROMPT_TITLE}; "
@@ -50,5 +50,7 @@ pd() {
 ####################
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 export PS1="[\u@\h:\W\$(git-radar --bash --fetch)] "
 cloudconflict
