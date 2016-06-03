@@ -34,7 +34,7 @@ windows:
       layout: tiled
       panes:
 #        - ssh -t 193.157.66.39 'sudo su -l'
-        - ssh -t hk1.tj.unn.no 'sudo su -l'
+#        - ssh -t hk1.tj.unn.no 'sudo su -l'
         - ssh -t hk1.telemed.no 'sudo su -l'
         - ssh -t ln1.helsekompetanse.no 'sudo su -l'
         - ssh -t ln2.helsekompetanse.no 'sudo su -l'
