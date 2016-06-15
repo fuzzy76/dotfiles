@@ -18,6 +18,7 @@ Host gitlab.telemed.no
 
 Host hk1
     Hostname 212.71.249.216
+    User aegir
 
 Host hk2
     Hostname 178.79.180.94
