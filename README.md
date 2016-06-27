@@ -95,3 +95,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * [Minimal Status Bar](https://visnup.github.io/Minimal-Status-Bar/)
 * [Disconnect](https://disconnect.me/disconnect)
 * [Synology Download Station](https://www.download-station-extension.com)
+
+#Linkdump
+* https://github.com/herrbischoff/awesome-osx-command-line
+* https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+* https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
