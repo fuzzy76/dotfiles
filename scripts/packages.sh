@@ -47,6 +47,7 @@ libreoffice
 makemkv macid
 omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm
+qlmarkdown
 semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station skitch
 teamviewer the-unarchiver toggldesktop the_silver_searcher
 vlc vagrant virtualbox virtualbox-extension-pack
