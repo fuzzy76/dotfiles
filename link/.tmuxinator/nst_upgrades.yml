@@ -38,4 +38,4 @@ windows:
         - ssh -t hk1.telemed.no 'sudo su -l'
         - ssh -t ln1.helsekompetanse.no 'sudo su -l'
         - ssh -t ln2.helsekompetanse.no 'sudo su -l'
-        - ssh -t slutta.telemed.no 'sudo su -l'
+#        - ssh -t slutta.telemed.no 'sudo su -l'
