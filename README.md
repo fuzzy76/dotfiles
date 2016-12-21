@@ -1,4 +1,4 @@
-#Fuzzy76's dotfiles repo
+# Fuzzy76's dotfiles repo
 
 <pre>This is my dotfiles repo.
 There are many like it, but this one is mine.
@@ -8,14 +8,14 @@ I must master it as I must master my life.
 My dotfiles repo, without me, is useless.
 Without my dotfiles repo, I am useless.</pre>
 
-#Dotwhat?
+# Dotwhat?
 A dotfiles repository is a repository for my personal configuration and computer setup. Fork it if you want. Have some links:
 * [Dotfiles tutorial for OS X](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
 * [Dotfiles resource](https://dotfiles.github.io)
 * [Generic dotfiles tutorial](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
 * [Supposedly the best of the crop](https://github.com/mathiasbynens/dotfiles)
 
-#Install new Mac
+# Install new Mac
 1. Boot up the Mac, adding an iCloud account.
 2. Open App store, install all updates.
 3. Install XCode, and run ```sudo xcodebuild -license```
@@ -24,7 +24,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 6. Do the App store manual installs below
 7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
 
-#Components
+# Components
 * scripts/start.sh - a bootstrap script for doing a one-line install (see point 5 above). Checks requirements, does a git clone and starts install.sh.
 * scripts/install.sh - main script for handling installation.
 * scripts/packages.sh - install packagehandlers (homebrew, homebrew cask, gem, npm, composer) and packages.
@@ -35,7 +35,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * link/* - config files symlinked to ~/
 * link_special/* - config files symlinked elsewhere.
 
-#Todo
+# Todo
 These will probably be moved to issues once I feel the repo is stable:
 * Figure out which apps needs to be added to autostart
 * Figure out a better way to configure cloud syncing
@@ -48,7 +48,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Some packages (crashplan, teamviewer, focus etc) are only for some of my computers.
 * Github tokens for composer and homebrew.
 
-#App store manual install
+# App store manual install
 * Divvy
 * HardwareGrowler
 * Pixelmator
@@ -60,19 +60,19 @@ These will probably be moved to issues once I feel the repo is stable:
 * Mindnode Pro 1
 * Mindful Mynah
 
-#Other stuff to install manually
+# Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
 * Company software (Office)
 * Company VPN (add Cisco IPSec config)
 * Browser extensions (see list below)
 
-#Settings I couldn't automate
+# Settings I couldn't automate
 * Mission control on mousebutton 4
 * Change Safari search engine to Duck Duck Go
 * Change menubar clock from weekday to date
 * Add ```git@github.com:fuzzy76/intellij-settings.git``` as a PhpStorm settings repository
 
-#Personal pre-reinstall checklist
+# Personal pre-reinstall checklist
 * Check all folders under ~
 * Transfer ~/Downloads
 * Save open tabs in Safari (rest should be synced)
@@ -85,7 +85,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * crontab
 * Check repositories for uncommited changes
 
-#Safari extensions
+# Safari extensions
 * [ClickToPlugin](http://hoyois.github.io/safariextensions/clicktoplugin/)
 * [EXIF Viewer](https://code.google.com/p/exif-vewer-extension/)
 * Google Docs Viewer - DEAD
@@ -96,7 +96,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * [Disconnect](https://disconnect.me/disconnect)
 * [Synology Download Station](https://www.download-station-extension.com)
 
-#Linkdump
+# Linkdump
 * https://github.com/herrbischoff/awesome-osx-command-line
 * https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 * https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
