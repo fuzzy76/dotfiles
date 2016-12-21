@@ -86,15 +86,10 @@ These will probably be moved to issues once I feel the repo is stable:
 * Check repositories for uncommited changes
 
 # Safari extensions
-* [ClickToPlugin](http://hoyois.github.io/safariextensions/clicktoplugin/)
 * [EXIF Viewer](https://code.google.com/p/exif-vewer-extension/)
 * Google Docs Viewer - DEAD
 * [Google Image Search](https://github.com/estum/Google-Image-Search-safariextension/downloads)
 * [NoMoreiTunes](http://nomoreitunes.einserver.de)
-* [Dreditor](https://dreditor.org)
-* [Minimal Status Bar](https://visnup.github.io/Minimal-Status-Bar/)
-* [Disconnect](https://disconnect.me/disconnect)
-* [Synology Download Station](https://www.download-station-extension.com)
 
 # Linkdump
 * https://github.com/herrbischoff/awesome-osx-command-line
