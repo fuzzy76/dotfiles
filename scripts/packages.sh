@@ -49,8 +49,8 @@ omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm
 qlmarkdown
 semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station skitch
-teamviewer the-unarchiver toggldesktop the_silver_searcher
-vlc vagrant virtualbox virtualbox-extension-pack
+teamviewer the-unarchiver time-out toggldesktop the_silver_searcher
+vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
 xquartz
 )

@@ -47,8 +47,11 @@ These will probably be moved to issues once I feel the repo is stable:
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
 * Some packages (crashplan, teamviewer, focus etc) are only for some of my computers.
 * Github tokens for composer and homebrew.
+* Visual studio code extensions and settings sync
 
 # App store manual install
+* 1Blocker
+* Keynote, Numbers, Pages
 * Divvy
 * HardwareGrowler
 * Pixelmator
