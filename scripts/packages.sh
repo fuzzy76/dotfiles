@@ -12,10 +12,11 @@ if ! brew doctor ; then
   read -p "Press [Enter] key to continue..."
 fi
 packages=(
+docker
 ffmpeg
 hr htop-osx
-mariadb mtr mosh
-npm homebrew/dupes/nano
+mtr mosh
+nginx npm homebrew/dupes/nano
 ruby
 shellcheck ssh-copy-id
 terminal-notifier tmux
@@ -34,22 +35,20 @@ brew install michaeldfallen/formula/git-radar
 brew tap caskroom/cask
 brew tap caskroom/fonts
 packages=(
-apptivate apptrap atom aerial
-crashplan
+apptivate apptrap aerial adobe-digital-editions
 dropbox
-evernote
 flash fluid firefox focus
 font-inconsolata
 gas-mask google-drive google-chrome gifs
 handbrake hex-fiend
 java
+kobo
 libreoffice
 makemkv macid
 omnidisksweeper omnifocus omnifocus-clip-o-tron
-phpstorm
-qlmarkdown
-semulov sequel-pro skype sourcetree speedcrunch steam synology-cloud-station skitch
-teamviewer the-unarchiver time-out toggldesktop the_silver_searcher
+phpstorm pycharm
+semulov sequel-pro skype speedcrunch steam synology-cloud-station
+teamviewer the-unarchiver time-out the_silver_searcher
 vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
 xquartz
