@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# This file check outs the repository and starts the rest of the installation from inside.
+
 # Check for git command
 command -v git >/dev/null 2>&1 || { echo "git missing. Make sure it is available before running." >&2; exit 1; };
 # If we dont have the dotfiles repo, get it

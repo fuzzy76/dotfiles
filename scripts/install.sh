@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Does the actual installation
+
 DOTFILES=$HOME/repos/dotfiles
 # function ensurecommand { command -v $1 >/dev/null 2>&1 || { echo "$1 missing. Make sure it is available before running." >&2; exit 1; }; }
 function promptstring { osascript -e "Tell application \"System Events\" to display dialog \"$1\" default answer \"\"" -e 'text returned of result' 2>/dev/null; }
