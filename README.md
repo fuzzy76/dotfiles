@@ -79,7 +79,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Save open tabs in Safari (rest should be synced)
 * Make sure Photos.app is done syncing
 * Transfer ssh key if desired
-* Clean up Desktop
 * Save any virtual machines
 * iTunes library
 * ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
