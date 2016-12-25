@@ -66,7 +66,3 @@ for item in ${packages[*]}
 do
   composer global require $item
 done
-
-# Atom plugins
-# (apm is probably not available directly until the command line tool has been installed from within Atom)
-/Applications/Atom.app/Contents/Resources/app/apm/node_modules/.bin/apm install --packages-file conf/atom-packages.txt
