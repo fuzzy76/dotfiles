@@ -65,14 +65,13 @@ These will probably be moved to issues once I feel the repo is stable:
 # Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
 * Company software (Office)
-* Company VPN (add Cisco IPSec config)
+* Company Citrix
 * Browser extensions (see list below)
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
 * Change Safari search engine to Duck Duck Go
 * Change menubar clock from weekday to date
-* Add ```git@github.com:fuzzy76/intellij-settings.git``` as a PhpStorm settings repository
 
 # Personal pre-reinstall checklist
 * Check all folders under ~
