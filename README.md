@@ -30,7 +30,6 @@ A dotfiles repository is a repository for my personal configuration and computer
 * scripts/packages.sh - install packagehandlers (homebrew, homebrew cask, gem, npm, composer) and packages.
 * scripts/settings.sh - tweak settings to my liking.
 * bin/* - bash scripts added to the path of the system.
-* conf/* - config files used during installation, but not linked anywhere.
 * git-hooks/* - git hooks. Not finished.
 * link/* - config files symlinked to ~/
 * link_special/* - config files symlinked elsewhere.
