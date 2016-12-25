@@ -12,9 +12,8 @@ if ! brew doctor ; then
   read -p "Press [Enter] key to continue..."
 fi
 packages=(
-docker
 ffmpeg
-hr htop-osx
+heroku hr htop-osx
 mtr mosh
 nginx npm homebrew/dupes/nano
 ruby
@@ -36,19 +35,17 @@ brew tap caskroom/cask
 brew tap caskroom/fonts
 packages=(
 apptivate apptrap aerial adobe-digital-editions
-dropbox
-flash fluid firefox focus
-font-inconsolata
+dash docker dropbox
+fluid firefox focus font-inconsolata
 gas-mask google-drive google-chrome gifs
 handbrake hex-fiend
 java
 kobo
-libreoffice
-makemkv macid
+makemkv mumble
 omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm pycharm
 semulov sequel-pro skype speedcrunch steam synology-cloud-station
-teamviewer the-unarchiver time-out the_silver_searcher
+teamviewer the-unarchiver time-out the_silver_searcher typora
 vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
 xquartz
@@ -60,7 +57,6 @@ done
 
 # Gems
 gem install pro
-gem install tmuxinator
 
 # Composer
 curl -sS https://getcomposer.org/installer | php
