@@ -18,7 +18,7 @@ mtr mosh
 nginx npm homebrew/dupes/nano
 ruby
 shellcheck ssh-copy-id
-terminal-notifier tmux
+terminal-notifier the_silver_searcher tmux
 wget
 youtube-dl
 )
@@ -44,8 +44,8 @@ kobo
 makemkv mumble
 omnidisksweeper omnifocus omnifocus-clip-o-tron
 phpstorm pycharm
-semulov sequel-pro skype speedcrunch steam synology-cloud-station
-teamviewer the-unarchiver time-out the_silver_searcher typora
+semulov sequel-pro skype speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
+teamviewer the-unarchiver time-out typora
 vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
 xquartz
