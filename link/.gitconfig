@@ -1,6 +1,6 @@
 [core]
 	excludesfile = /Users/fuzzy76/.gitignore_global
-	editor = atom --wait
+	editor = nano
 [push]
 	default = simple
 [user]
