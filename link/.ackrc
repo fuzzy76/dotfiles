@@ -6,3 +6,4 @@
 --type-add=drupalcode:ext:module
 --type-add=drupalcode:ext:php
 --type-add=drupalcode:ext:install
+--ignore-dir=_site
