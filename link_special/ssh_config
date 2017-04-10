@@ -1,21 +1,6 @@
 ServerAliveInterval 30
 TCPKeepAlive yes
 
-Host spiralis.ttl.telemed.no
-    Port 2121
-
-Host pg-services.telemed.no
-    Port 2121
-
-Host jira.telemed.no
-    User havardp
-
-Host slutta.telemed.no
-    User havardp
-
-Host gitlab.telemed.no
-    User havardp
-
 Host hk1
     Hostname 212.71.249.216
     User aegir
@@ -23,3 +8,6 @@ Host hk1
 Host hk2
     Hostname 178.79.180.94
 
+Host spillsnakk
+    Hostname prod-spillsnakk-001.helsekompetanse.no
+    User root
