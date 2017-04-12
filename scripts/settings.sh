@@ -134,6 +134,9 @@ defaults write /Library/Preferences/com.apple.driver.AppleHIDMouse.plist Button2
 # Disable fast user switching
 sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool false
 
+# Set default screenshot folder
+defaults write com.apple.screencapture location ~/Downloads/
+
 #
 # S A F A R I
 #
