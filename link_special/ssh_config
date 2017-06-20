@@ -11,3 +11,7 @@ Host hk2
 Host spillsnakk
     Hostname prod-spillsnakk-001.helsekompetanse.no
     User root
+
+Host d6
+    Hostname 52.169.151.24
+    User helsekompetanse
