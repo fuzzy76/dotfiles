@@ -1,17 +1,11 @@
 ServerAliveInterval 30
 TCPKeepAlive yes
 
-Host hk1
-    Hostname 212.71.249.216
-    User aegir
+Host matilda
+    Hostname matilda.fuzzy76.net
+    User fuzzy76
 
-Host hk2
-    Hostname 178.79.180.94
+Host bertha
+    Hostname bertha.fuzzy76.net
+    User fuzzy76
 
-Host spillsnakk
-    Hostname prod-spillsnakk-001.helsekompetanse.no
-    User root
-
-Host d6
-    Hostname 52.169.151.24
-    User helsekompetanse
