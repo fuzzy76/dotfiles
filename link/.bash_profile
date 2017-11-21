@@ -11,6 +11,7 @@ export CLICOLOR=1
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 export LC_ALL=no_NO.UTF-8
 export LANG=no_NO.UTF-8
