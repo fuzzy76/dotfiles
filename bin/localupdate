@@ -27,3 +27,7 @@ echo "*** Dotfiles repo"
 cd $HOME/repos/dotfiles || exit;
 git pull ; git commit -a ; git push
 cd $OLDPWD || exit;
+
+echo "*** Launching App Store"
+open /Applications/App\ Store.app/
+
