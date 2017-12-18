@@ -31,8 +31,8 @@ sudo easy_install pip ; sudo pip install docutils ; brew tap mpv-player/mpv ; br
 brew install michaeldfallen/formula/git-radar
 
 # Python
-sudo pip3 install pip-tools virtualenv
-sudo pip install pip-tools virtualenv
+pip3 install pip-tools virtualenv
+pip install pip-tools virtualenv
 
 # Homebrew cask
 brew tap caskroom/cask
