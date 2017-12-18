@@ -93,3 +93,11 @@ These will probably be moved to issues once I feel the repo is stable:
 * https://github.com/herrbischoff/awesome-osx-command-line
 * https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 * https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
+
+#Color themes
+
+* https://chriskempson.github.io/base16/
+* https://github.com/chriskempson/base16
+* https://terminal.sexy/ (default dark, endre suffix til .terminal og importer)
+
+
