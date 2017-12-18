@@ -42,15 +42,14 @@ packages=(
 apptivate apptrap aerial adobe-digital-editions asix-ax88179
 dash docker dropbox
 fluid firefox focus font-inconsolata
-gas-mask google-drive google-chrome gifs
+gas-mask google-backup-and-sync google-chrome gifs
 handbrake hex-fiend
 java
 kobo
-makemkv mumble
-omnidisksweeper omnifocus omnifocus-clip-o-tron
-phpstorm pycharm
-semulov sequel-pro skype speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
-teamviewer the-unarchiver time-out typora
+makemkv mumble microsoft-teams
+omnidisksweeper omnifocus
+semulov sequel-pro skype skype-for-business speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
+the-unarchiver time-out typora
 vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
 xquartz
