@@ -37,8 +37,9 @@ pip install pip-tools virtualenv
 # Homebrew cask
 brew tap caskroom/cask
 brew tap caskroom/fonts
+brew tap caskroom/drivers
 packages=(
-apptivate apptrap aerial adobe-digital-editions
+apptivate apptrap aerial adobe-digital-editions asix-ax88179
 dash docker dropbox
 fluid firefox focus font-inconsolata
 gas-mask google-drive google-chrome gifs
