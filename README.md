@@ -18,8 +18,8 @@ A dotfiles repository is a repository for my personal configuration and computer
 # Install new Mac
 1. Boot up the Mac, adding an iCloud account.
 2. Open App store, install all updates.
-3. Install XCode, run ```sudo xcodebuild -license``` and ```xcode-select --install```
-4. If you want to use an existing key, install it before proceeding (chmod 700).
+3. If you want to use an existing key, install it before proceeding (chmod 700).
+4. Install XCode, run ```sudo xcodebuild -license``` and ```xcode-select --install```
 5. Open terminal and paste ```curl -s https://raw.githubusercontent.com/fuzzy76/dotfiles/master/scripts/start.sh | bash```
 6. Do the App store manual installs below
 7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
@@ -42,9 +42,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * Automate symlinking
 * Convert some of my personal repositories (bashquote, medials, etc) into composer packages
 * Themes for atom, phpstorm and terminal
-* Plugins for phpstorm
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
-* Some packages (crashplan, teamviewer, focus etc) are only for some of my computers.
+* Some packages (timing, focus etc) are only for some of my computers.
 * Github tokens for composer and homebrew.
 * Visual studio code extensions and settings sync
 
@@ -61,6 +60,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * Timing
 * Mindnode Pro 1
 * Mindful Mynah
+* MindNode
+* Pocket
 
 # Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
@@ -86,9 +87,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Check repositories for uncommited changes
 
 # Safari extensions
-* [EXIF Viewer](https://code.google.com/p/exif-vewer-extension/)
-* Google Docs Viewer - DEAD
-* [Google Image Search](https://github.com/estum/Google-Image-Search-safariextension/downloads)
 * [NoMoreiTunes](http://nomoreitunes.einserver.de)
 
 # Linkdump
