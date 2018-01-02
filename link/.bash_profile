@@ -13,8 +13,8 @@ export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
-export LC_ALL=no_NO.UTF-8
-export LANG=no_NO.UTF-8
+export LC_ALL=nb_NO.UTF-8
+export LANG=nb_NO.UTF-8
 
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_TITLE}; ${PROMPT_COMMAND}"
