@@ -13,7 +13,7 @@ if ! brew doctor ; then
 fi
 packages=(
 ffmpeg
-heroku hr htop-osx
+heroku hr htop-osx httpie
 mtr mosh
 nginx npm homebrew/dupes/nano
 ruby
