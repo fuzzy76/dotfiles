@@ -6,7 +6,6 @@ softwareupdate -l
 echo "*** Homebrew"
 brew update # Update homebrew recipes
 brew upgrade # Upgrade apps
-brew linkapps # Link apps
 brew cleanup # Remove old/obsolete versions from cellar
 brew cask cleanup # Remove old/obsolete cask versions from cellar
 brew prune # Remove dead symlinks
