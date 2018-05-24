@@ -65,7 +65,7 @@ gem install pro
 # Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
-packages=("d11wtq/boris" "drush/drush" "squizlabs/php_codesniffer=*" "drupal/coder")
+packages=("d11wtq/boris" "squizlabs/php_codesniffer=*")
 for item in ${packages[*]}
 do
   composer global require $item
