@@ -37,6 +37,8 @@ source $HOME/repos/dotfiles/bin/git-completion.sh
 alias cloudconflict="find ~/CloudStation/ -name *_Conflict.* ; find ~/CloudStation/ -name *_Conflict"
 alias drupalcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
 alias gitall="ls | xargs -t -I{} git -C {}"
+alias typora="open -a typora"
+
 #-P10
 ############
 # Functions
