@@ -46,6 +46,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Some packages (timing, focus etc) are only for some of my computers.
 * Github tokens for composer and homebrew.
 * Visual studio code extensions and settings sync
+* SF Mono font
 
 # App store manual install
 * 1Blocker
@@ -68,6 +69,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Company software (Office)
 * Company Citrix
 * Browser extensions (see list below)
+* SF Mono font
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
