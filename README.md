@@ -47,6 +47,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Github tokens for composer and homebrew.
 * Visual studio code extensions and settings sync
 * SF Mono font
+* Automate crontab install
 
 # App store manual install
 * 1Blocker
@@ -103,4 +104,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * https://github.com/chriskempson/base16
 * https://terminal.sexy/ (default dark, endre suffix til .terminal og importer)
 
+# Crontab
+
+0 0 * * * cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_d_$(date +'%A').plist
+0 0 * * 0 cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_w_$(date +'%V').plist
 

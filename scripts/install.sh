@@ -24,6 +24,7 @@ git config --global user.email $name
 # Set up some local folders
 mkdir ~/bin
 mkdir ~/repos
+mkdir ~/backup 
 git config --global core.excludesfile ~/.gitignore_global
 
 # Symlink stuff
