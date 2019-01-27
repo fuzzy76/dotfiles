@@ -34,7 +34,7 @@ alias cloudconflict="find ~/CloudStation/ -name *_Conflict.* ; find ~/CloudStati
 alias drupalcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
 alias gitall="ls | xargs -t -I{} git -C {}"
 alias typora="open -a typora"
-alias bertha sudo mount_nfs -o rw,bg,hard,resvport,intr,ac,nfc,tcp bertha.local:/volume1/fuzzy76/ /Users/fuzzy76/bertha/
+alias bertha="sudo mount_nfs -o rw,bg,hard,resvport,intr,ac,nfc,tcp bertha.local:/volume1/fuzzy76/ /Users/fuzzy76/bertha/"
 
 #-P10
 ############
