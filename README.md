@@ -48,6 +48,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Visual studio code extensions and settings sync
 * SF Mono font
 * Automate crontab install
+* Install nativefier and auto run ssb script on install
 
 # App store manual install
 * 1Blocker
