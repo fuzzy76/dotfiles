@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#nativefier --name "Microsoft Planner" https://tasks.office.com/
-#The Lounge
 #Brain.Fm
 #Se over bokmerker?
 
@@ -11,4 +9,7 @@
 
 #https://github.com/jiahaog/nativefier-icons
 
-nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance  https://matilda.fuzzy76.net:9000/
+mkdir tmp/
+nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance  
+https://matilda.fuzzy76.net:9000/ tmp/
+nativefier --name "Microsoft Planner" --icon icons/msplanner.png --single-instance https://tasks.office.com/ tmp/
