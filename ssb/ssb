@@ -7,9 +7,11 @@
 #Imagemagick identify in your PATH, Nativefier will automatically convert the
 #.png to a .icns for you.
 
-#https://github.com/jiahaog/nativefier-icons
+# https://github.com/jiahaog/nativefier-icons
+# https://github.com/jiahaog/nativefier/blob/master/docs/api.md
 
 mkdir tmp/
-nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance  
-https://matilda.fuzzy76.net:9000/ tmp/
+nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance https://matilda.fuzzy76.net:9000/ tmp/
 nativefier --name "Microsoft Planner" --icon icons/msplanner.png --single-instance https://tasks.office.com/ tmp/
+nativefier --name "Do nothing for 2 minutes" --icon icons/calm.png --fast-quit --full-screen --hide-window-frame --title-bar-style hidden --disable-context-menu --single-instance http://www.donothingfor2minutes.com tmp/
+
