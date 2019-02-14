@@ -12,6 +12,5 @@
 
 mkdir tmp/
 nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance https://matilda.fuzzy76.net:9000/ tmp/
-nativefier --name "Microsoft Planner" --icon icons/msplanner.png --single-instance https://tasks.office.com/ tmp/
+nativefier --name "Microsoft Planner" --icon icons/msplanner.png --single-instance --internal-urls ".*?\.microsoftonline\.com" https://tasks.office.com/ tmp/
 nativefier --name "Do nothing for 2 minutes" --icon icons/calm.png --fast-quit --full-screen --hide-window-frame --title-bar-style hidden --disable-context-menu --single-instance http://www.donothingfor2minutes.com tmp/
-
