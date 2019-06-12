@@ -49,6 +49,7 @@ java
 kobo
 makemkv mumble microsoft-teams
 omnidisksweeper omnifocus
+qlstephen qlmarkdown quicklook-json
 semulov sequel-pro skype skype-for-business speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
 the-unarchiver time-out typora
 vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
