@@ -41,7 +41,7 @@ brew tap caskroom/drivers
 packages=(
 apptivate apptrap aerial adobe-digital-editions asix-ax88179
 coteditor
-dash docker dozer dropbox
+dash docker dozer
 fluid firefox focus font-inconsolata
 gas-mask google-backup-and-sync google-chrome gifs
 handbrake hex-fiend
