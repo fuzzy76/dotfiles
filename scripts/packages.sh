@@ -47,7 +47,7 @@ gas-mask google-backup-and-sync google-chrome gifs
 handbrake hex-fiend
 java
 kobo
-makemkv mumble microsoft-teams
+makemkv microsoft-teams
 omnidisksweeper omnifocus
 qlstephen qlmarkdown quicklook-json
 sequel-pro skype skype-for-business speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
