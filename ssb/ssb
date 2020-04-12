@@ -17,4 +17,4 @@ nativefier --name "Do nothing for 2 minutes" --icon icons/calm.png --fast-quit -
 nativefier --name "Min Tid" --icon icons/clock.png --single-instance --internal-urls ".*(bluegarden)\.net.*" https://tid-muit.bluegarden.net/ tmp/
 nativefier --name "Facebook Messenger" --icon icons/messenger.png --counter --bounce --single-instance --internal-urls ".*(facebook)\.com.*" https://messenger.com/ tmp/
 nativefier --name "Brain.fm" --icon icons/brainfm.png --single-instance https://www.brain.fm/ tmp/
-
+nativefier --name "Feedbin" --icon icons/feedbin.png --counter --title-bar-style hidden --single-instance https://feedbin.com/ tmp/
