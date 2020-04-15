@@ -117,6 +117,9 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Oslo" > /dev/null
 
+# Re-enable startup chime
+sudo nvram StartupMute=%00
+
 # Enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
@@ -136,6 +139,9 @@ sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabl
 
 # Set default screenshot folder
 defaults write com.apple.screencapture location ~/Downloads/
+
+# Set print dialog to show all settings by default
+defaults write -g PMPrintingExpandedStateForPrint -bool TRUE
 
 #
 # S A F A R I
