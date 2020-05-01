@@ -13,12 +13,11 @@ if ! brew doctor ; then
 fi
 packages=(
 ffmpeg
-heroku hr htop-osx httpie
-mtr mosh
-nginx npm homebrew/dupes/nano
-ruby
+hr htop-osx httpie
+mtr
+nginx
 shellcheck ssh-copy-id
-terminal-notifier the_silver_searcher tmux
+terminal-notifier the_silver_searcher
 wget
 youtube-dl
 )
@@ -27,34 +26,32 @@ do
   brew install $item
 done
 # Custom homebrew installs
-sudo easy_install pip ; sudo pip install docutils ; brew tap mpv-player/mpv ; brew install mpv --with-libaacs --with-bundle
 brew install michaeldfallen/formula/git-radar
 
 # Python
-pip3 install pip-tools virtualenv
-pip install pip-tools virtualenv
+#pip3 install pip-tools virtualenv
+#pip install pip-tools virtualenv
 
 # Homebrew cask
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
 packages=(
-apptivate apptrap aerial adobe-digital-editions asix-ax88179
+apptivate adobe-digital-editions asix-ax88179
 coteditor
 dash docker dozer
-fluid firefox focus font-inconsolata
-gas-mask google-backup-and-sync google-chrome gifs
+firefox focus font-inconsolata
+gas-mask google-backup-and-sync google-chrome
 handbrake hex-fiend
 java
 kobo
 makemkv microsoft-teams
 omnidisksweeper omnifocus
 qlstephen qlmarkdown quicklook-json
-sequel-pro skype skype-for-business speedcrunch steam synology-cloud-station-backup synology-cloud-station-drive
-the-unarchiver time-out typora
-vlc vagrant virtualbox virtualbox-extension-pack visual-studio-code
+skype-for-business speedcrunch steam synology-cloud-station-drive
+tenor the-unarchiver typora
+vlc virtualbox virtualbox-extension-pack visual-studio-code
 wordservice
-xquartz
 )
 for item in ${packages[*]}
 do
@@ -62,12 +59,12 @@ do
 done
 
 # Gems
-gem install pro
+#gem install pro
 
 # Composer
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
-packages=("d11wtq/boris" "squizlabs/php_codesniffer=*")
+packages=("psy/psysh" "squizlabs/php_codesniffer=*")
 for item in ${packages[*]}
 do
   composer global require $item
