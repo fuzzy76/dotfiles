@@ -48,7 +48,7 @@ handbrake hex-fiend
 iina
 java
 kobo
-libreoffice
+libreoffice logitech-gaming-software
 makemkv microsoft-teams
 omnidisksweeper omnifocus omnifocus-clip-o-tron onedrive
 qlstephen qlmarkdown quicklook-json
@@ -56,6 +56,7 @@ signal skype-for-business speedcrunch steam synology-cloud-station-drive
 tableplus tenor the-unarchiver typora
 virtualbox virtualbox-extension-pack visual-studio-code vlc
 wordservice
+zoomus
 )
 for item in ${packages[*]}
 do

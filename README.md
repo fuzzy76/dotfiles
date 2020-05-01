@@ -60,11 +60,10 @@ These will probably be moved to issues once I feel the repo is stable:
 * Thumbtack
 * Microsoft Remote Desktop
 * Deliveries
-* Timing
-* Mindnode Pro 1
-* Mindful Mynah
-* MindNode
+* Mindnode
 * Pocket
+* Facebook Messenger
+* New File Menu
 
 # Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
@@ -72,6 +71,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * Company Citrix
 * Browser extensions (see list below)
 * SF Mono font
+* Snap Camera
+* Tweetdeck
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
