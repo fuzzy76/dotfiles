@@ -15,7 +15,8 @@ packages=(
 ffmpeg
 hr htop-osx httpie
 mtr
-nginx
+nginx nmap
+ocrmypdf
 shellcheck ssh-copy-id
 terminal-notifier the_silver_searcher
 wget
@@ -37,20 +38,23 @@ brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap caskroom/drivers
 packages=(
-apptivate adobe-digital-editions asix-ax88179
-coteditor
-dash docker dozer
+apptivate adobe-digital-editions asix-ax88179 advancedrestclient
+basecamp boinc calibre
+coteditor cyberduck
+dash docker dozer discord dupeguru
 firefox focus font-inconsolata
-gas-mask google-backup-and-sync google-chrome
+garmin-express gas-mask google-backup-and-sync google-chrome
 handbrake hex-fiend
+iina
 java
 kobo
+libreoffice
 makemkv microsoft-teams
-omnidisksweeper omnifocus
+omnidisksweeper omnifocus omnifocus-clip-o-tron onedrive
 qlstephen qlmarkdown quicklook-json
-skype-for-business speedcrunch steam synology-cloud-station-drive
-tenor the-unarchiver typora
-vlc virtualbox virtualbox-extension-pack visual-studio-code
+signal skype-for-business speedcrunch steam synology-cloud-station-drive
+tableplus tenor the-unarchiver typora
+virtualbox virtualbox-extension-pack visual-studio-code vlc
 wordservice
 )
 for item in ${packages[*]}
