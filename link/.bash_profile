@@ -8,7 +8,6 @@ export EDITOR=nano
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PRO_BASE="$HOME/repos"
 export ANSIBLE_NOCOWS=1
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
@@ -30,8 +29,6 @@ source $HOME/repos/dotfiles/bin/git-completion.sh
 # Aliases
 ##########
 
-alias cloudconflict="find ~/CloudStation/ -name *_Conflict.* ; find ~/CloudStation/ -name *_Conflict"
-alias drupalcs="phpcs --standard=Drupal,DrupalPractice --extensions='php,module,inc,install,test,profile,theme,js,css,info,txt'"
 alias gitall="ls | xargs -t -I{} git -C {}"
 alias typora="open -a typora"
 alias bertha="sudo mkdir /Volumes/bertha ; sudo chown fuzzy76 /Volumes/bertha ; sudo mount_nfs -o rw,bg,hard,resvport,intr,ac,nfc,tcp bertha.local:/volume1/fuzzy76/ /Volumes/bertha/"
@@ -41,11 +38,6 @@ alias bertha="sudo mkdir /Volumes/bertha ; sudo chown fuzzy76 /Volumes/bertha ; 
 # Functions
 ############
 
-# pro cd function
-pd() {
-  local projDir=$(pro search $1)
-  cd ${projDir}
-}
 
 ####################
 # Ending operations

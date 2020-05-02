@@ -52,7 +52,7 @@ libreoffice logitech-gaming-software
 makemkv microsoft-teams
 omnidisksweeper omnifocus omnifocus-clip-o-tron onedrive
 qlstephen qlmarkdown quicklook-json
-signal skype-for-business speedcrunch steam synology-cloud-station-drive
+signal skype-for-business speedcrunch steam
 tableplus tenor the-unarchiver typora
 virtualbox virtualbox-extension-pack visual-studio-code vlc
 wordservice
@@ -64,7 +64,7 @@ do
 done
 
 # Gems
-#gem install pro
+# sudo gem install pro
 
 # Composer
 curl -sS https://getcomposer.org/installer | php
