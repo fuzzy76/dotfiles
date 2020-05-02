@@ -28,12 +28,8 @@ mkdir ~/backup
 git config --global core.excludesfile ~/.gitignore_global
 
 # Symlink stuff
-ln -s $DOTFILES/link/.ackrc $HOME
 ln -s $DOTFILES/link/.bash_profile $HOME
-ln -s $DOTFILES/link/.ctags $HOME
 ln -s $DOTFILES/link/.gitignore_global $HOME
-ln -s $DOTFILES/link/.tmux.conf $HOME
-ln -s $DOTFILES/link/.tmuxinator $HOME
 rm $HOME/.ssh/config ; ln -s $DOTFILES/link_special/ssh_config $HOME/.ssh/config
 
 # Run scripts
