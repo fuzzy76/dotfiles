@@ -47,7 +47,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 export PS1="[\u@\h:\W\$(git-radar --bash --fetch)] "
-cloudconflict
 
 PATH="/Users/hpe001/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/Users/hpe001/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
