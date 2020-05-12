@@ -89,7 +89,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * iTunes library
 * ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
 * crontab
-* Omnifocus archive file
+* Omnifocus archive file (File -> Show "Omnifocus.ofocus in Finder", Archive.ofocus-archive)
 * Check repositories for uncommited changes
 
 # Safari extensions
