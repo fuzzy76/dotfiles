@@ -47,10 +47,10 @@ garmin-express gas-mask google-backup-and-sync google-chrome
 handbrake hex-fiend
 iina
 java
-kobo
-libreoffice logitech-gaming-software
+kobo keybase
+libreoffice logitech-gaming-software logitech-options
 makemkv microsoft-teams
-omnidisksweeper omnifocus omnifocus-clip-o-tron onedrive
+omnidisksweeper omnifocus onedrive
 qlstephen qlmarkdown quicklook-json
 signal skype-for-business speedcrunch steam
 tableplus tenor the-unarchiver typora
