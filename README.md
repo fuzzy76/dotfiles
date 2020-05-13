@@ -64,6 +64,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Pocket
 * Facebook Messenger
 * New File Menu
+* Tweetdeck
 
 # Other stuff to install manually
 * [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
@@ -71,8 +72,8 @@ These will probably be moved to issues once I feel the repo is stable:
 * Company Citrix
 * Browser extensions (see list below)
 * SF Mono font
-* Snap Camera
-* Tweetdeck
+* [Snap Camera](https://snapcamera.snapchat.com)
+* [Snoozebar](https://github.com/banderson623/SnoozeBar/releases)
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4

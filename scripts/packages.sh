@@ -52,8 +52,9 @@ libreoffice logitech-gaming-software logitech-options
 makemkv microsoft-teams
 omnidisksweeper omnifocus onedrive
 qlstephen qlmarkdown quicklook-json
-signal skype-for-business speedcrunch steam
-tableplus tenor the-unarchiver typora
+shapes signal skype-for-business speedcrunch steam
+tableplus telegram tenor the-unarchiver typora
+unlox
 virtualbox virtualbox-extension-pack visual-studio-code vlc
 wordservice
 zoomus
