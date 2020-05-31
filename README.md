@@ -99,14 +99,13 @@ These will probably be moved to issues once I feel the repo is stable:
 * https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 * https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
 
-#Color themes
-
+# Color themes
 * https://chriskempson.github.io/base16/
 * https://github.com/chriskempson/base16
-* https://terminal.sexy/ (default dark, endre suffix til .terminal og importer)
+* https://terminal.sexy/ (default dark, endre suffix til .terminal og importer) <-- This is the one
 
 # Crontab
-
+```
 0 0 * * * cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_d_$(date +'%A').plist
 0 0 * * 0 cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_w_$(date +'%V').plist
-
+```
