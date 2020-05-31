@@ -72,7 +72,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Company software (Office)
 * Company Citrix
 * Browser extensions (see list below)
-* SF Mono font
 * [Snap Camera](https://snapcamera.snapchat.com)
 * [Snoozebar](https://github.com/banderson623/SnoozeBar/releases)
 
