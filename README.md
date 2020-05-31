@@ -94,9 +94,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Omnifocus archive file (File -> Show "Omnifocus.ofocus in Finder", Archive.ofocus-archive)
 * Check repositories for uncommited changes
 
-# Safari extensions
-* [NoMoreiTunes](http://nomoreitunes.einserver.de)
-
 # Linkdump
 * https://github.com/herrbischoff/awesome-osx-command-line
 * https://github.com/mathiasbynens/dotfiles/blob/master/.osx
