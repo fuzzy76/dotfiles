@@ -52,13 +52,13 @@ These will probably be moved to issues once I feel the repo is stable:
 
 # App store manual install
 * 1Blocker
+* Bookmarker for pinboard
 * Keynote, Numbers, Pages
 * Divvy
 * Garageband
 * HardwareGrowler
 * Pixelmator
 * iNet Network Scanner
-* Thumbtack
 * Microsoft Remote Desktop
 * Deliveries
 * Mindnode
