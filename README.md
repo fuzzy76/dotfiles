@@ -54,6 +54,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * 1Blocker
 * Keynote, Numbers, Pages
 * Divvy
+* Garageband
 * HardwareGrowler
 * Pixelmator
 * iNet Network Scanner
