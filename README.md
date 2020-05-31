@@ -37,16 +37,13 @@ A dotfiles repository is a repository for my personal configuration and computer
 # Todo
 These will probably be moved to issues once I feel the repo is stable:
 * Figure out which apps needs to be added to autostart
-* Figure out a better way to configure cloud syncing
 * Consider phpenv end rbenv
-* Automate symlinking
 * Convert some of my personal repositories (bashquote, medials, etc) into composer packages
 * Themes for atom, phpstorm and terminal
 * [Xcode license check](https://github.com/CalQL8ed-K-OS/CocoaPods/commit/242d3a3d774f5f3370ae0c5ef783bda993d7029f)
-* Some packages (timing, focus etc) are only for some of my computers.
+* Some packages are only for some of my computers.
 * Github tokens for composer and homebrew.
 * Visual studio code extensions and settings sync
-* SF Mono font
 * Automate crontab install
 * Install nativefier and auto run ssb script on install
 
@@ -70,8 +67,7 @@ These will probably be moved to issues once I feel the repo is stable:
 
 # Other stuff to install manually
 * Company software (Office)
-* Company Citrix
-* Browser extensions (see list below)
+* Company Citrix and Cisco VPN
 * [Snap Camera](https://snapcamera.snapchat.com)
 * [Snoozebar](https://github.com/banderson623/SnoozeBar/releases)
 
