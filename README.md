@@ -63,6 +63,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Deliveries
 * Mindnode
 * Pocket
+* Stop the madness
 * Facebook Messenger
 * New File Menu
 * Tweetdeck
