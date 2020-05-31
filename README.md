@@ -69,7 +69,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Tweetdeck
 
 # Other stuff to install manually
-* [Zenburn for terminal.app](https://github.com/bdesham/zenburn-terminal)
 * Company software (Office)
 * Company Citrix
 * Browser extensions (see list below)
