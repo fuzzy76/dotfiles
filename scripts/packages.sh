@@ -34,9 +34,8 @@ brew install michaeldfallen/formula/git-radar
 #pip install pip-tools virtualenv
 
 # Homebrew cask
-brew tap caskroom/cask
-brew tap caskroom/fonts
-brew tap caskroom/drivers
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-drivers
 packages=(
 apptivate adobe-digital-editions asix-ax88179 advancedrestclient
 basecamp boinc calibre
