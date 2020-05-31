@@ -34,14 +34,13 @@ brew install michaeldfallen/formula/git-radar
 #pip install pip-tools virtualenv
 
 # Homebrew cask
-brew tap homebrew/cask-fonts
 brew tap homebrew/cask-drivers
 packages=(
 apptivate adobe-digital-editions asix-ax88179 advancedrestclient
 basecamp boinc calibre
 coteditor cyberduck
 dash docker dozer discord dupeguru
-firefox focus font-inconsolata
+firefox focus
 garmin-express gas-mask google-backup-and-sync google-chrome
 handbrake hex-fiend
 iina
