@@ -49,4 +49,3 @@ ln -s ~/repos/bashquote/bashquote ~/bin/
 
 # Cleanup
 dscacheutil -flushcache
-brew linkapps
