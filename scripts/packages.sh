@@ -41,7 +41,7 @@ basecamp boinc calibre
 coteditor cyberduck
 dash docker dozer discord dupeguru
 firefox focus
-garmin-express gas-mask google-backup-and-sync google-chrome
+garmin-express gas-mask google-chrome
 handbrake hex-fiend
 iina
 java
