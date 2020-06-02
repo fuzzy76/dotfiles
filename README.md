@@ -70,6 +70,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Company Citrix and Cisco VPN
 * [Snap Camera](https://snapcamera.snapchat.com)
 * [Snoozebar](https://github.com/banderson623/SnoozeBar/releases)
+* [HP Photosmart 7510 drivers](https://support.hp.com/no-no/drivers/selfservice/hp-photosmart-7510-e-all-in-one-printer-series-c311/5070118/model/5070120)
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
