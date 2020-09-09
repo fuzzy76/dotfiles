@@ -42,9 +42,9 @@
 			<key>color</key>
 			<string>{0.262745, 0.356863, 0.400000, 1.000000}</string>
 			<key>fontName</key>
-			<string>SFProText-Regular</string>
+			<string>HelveticaNeue</string>
 			<key>fontSize</key>
-			<real>18</real>
+			<real>14</real>
 			<key>italic</key>
 			<false/>
 		</dict>
@@ -129,9 +129,9 @@
 				<key>color</key>
 				<string>{0.101961, 0.333333, 0.411765, 1.000000}</string>
 				<key>fontName</key>
-				<string>SFProRounded-Medium</string>
+				<string>HelveticaNeue</string>
 				<key>fontSize</key>
-				<real>24</real>
+				<real>14</real>
 				<key>italic</key>
 				<false/>
 			</dict>
