@@ -21,8 +21,8 @@ export PROMPT_COMMAND="${PROMPT_TITLE}; ${PROMPT_COMMAND}"
 # Autocomplete
 ###############
 
-complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" ssh
-if [ -f $(brew --prefix)/etc/bash_completion ]; then . $(brew --prefix)/etc/bash_completion ; fi
+zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then . $(brew --prefix)/etc/bash_completion ; fi
 #source $HOME/repos/dotfiles/bin/git-completion.sh
 
 ##########
@@ -46,4 +46,5 @@ alias bertha="sudo mkdir /Volumes/bertha ; sudo chown fuzzy76 /Volumes/bertha ; 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-export PS1="[\u@\h:\W\$(git-radar --bash --fetch)] "
+# export PS1="[\u@\h:\W\$(git-radar --bash --fetch)] "
+# export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "

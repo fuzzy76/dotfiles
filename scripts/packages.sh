@@ -26,8 +26,6 @@ for item in ${packages[*]}
 do
   brew install $item
 done
-# Custom homebrew installs
-brew install michaeldfallen/formula/git-radar
 
 # Python
 #pip3 install pip-tools virtualenv
