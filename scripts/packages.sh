@@ -35,20 +35,20 @@ done
 brew tap homebrew/cask-drivers
 packages=(
 apptivate adobe-digital-editions asix-ax88179 advancedrestclient
-basecamp boinc calibre
+basecamp calibre
 coteditor cyberduck
 dash docker dozer discord dupeguru
 firefox focus
 garmin-express gas-mask google-chrome
-handbrake hex-fiend
+handbrake hex-fiend hey
 iina
 java
-kobo keybase
+kobo
 libreoffice logitech-gaming-software logitech-options
 makemkv microsoft-teams
-omnidisksweeper omnifocus onedrive
+omnidisksweeper
 qlstephen qlmarkdown quicklook-json
-shapes signal skype-for-business speedcrunch steam
+sequel-ace shapes signal skype-for-business speedcrunch steam
 tableplus telegram tenor the-unarchiver typora
 unlox
 virtualbox virtualbox-extension-pack visual-studio-code vlc
