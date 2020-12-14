@@ -46,6 +46,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Visual studio code extensions and settings sync
 * Automate crontab install
 * Install nativefier and auto run ssb script on install
+* Install App Store apps with [MAS](https://github.com/mas-cli/mas)
 
 # App store manual install
 * 1Blocker
@@ -68,14 +69,16 @@ These will probably be moved to issues once I feel the repo is stable:
 # Other stuff to install manually
 * Company software (Office)
 * Company Citrix and Cisco VPN
+* [NepTunes](https://micropixels.software/neptunes)
 * [Snap Camera](https://snapcamera.snapchat.com)
-* [Snoozebar](https://github.com/banderson623/SnoozeBar/releases)
 * [HP Photosmart 7510 drivers](https://support.hp.com/no-no/drivers/selfservice/hp-photosmart-7510-e-all-in-one-printer-series-c311/5070118/model/5070120)
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
 * Change Safari search engine to Duck Duck Go
 * Change menubar clock from weekday to date
+* Change Finder sidepanel to point to all PARA file roots
+* Change Safari to save to Desktop
 
 # Personal pre-reinstall checklist
 * Check all folders under ~
