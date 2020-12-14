@@ -57,7 +57,7 @@ zoomus
 )
 for item in ${packages[*]}
 do
-  brew cask install $item
+  brew install --cask $item
 done
 
 # Gems
