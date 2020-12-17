@@ -41,11 +41,11 @@ dash docker dozer discord dupeguru
 firefox focus
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey
-iina
+iina itsycal
 java
 kobo
 libreoffice logitech-gaming-software logitech-options
-makemkv microsoft-teams
+makemkv microsoft-teams meetingbar
 omnidisksweeper
 qlstephen qlmarkdown quicklook-json
 sequel-ace shapes signal skype-for-business speedcrunch steam
