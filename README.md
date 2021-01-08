@@ -16,7 +16,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 * [Supposedly the best of the crop](https://github.com/mathiasbynens/dotfiles)
 
 # Install new Mac
-1. Boot up the Mac, adding an iCloud account.
+1. Boot up the Mac, adding an iCloud account. Add iCloud sync of Desktop and Documents.
 2. Open App store, install all updates.
 3. If you want to use an existing key, install it before proceeding (chmod 700).
 4. Install XCode, run ```sudo xcodebuild -license``` and ```xcode-select --install```
@@ -54,20 +54,17 @@ These will probably be moved to issues once I feel the repo is stable:
 * Keynote, Numbers, Pages
 * Divvy
 * Garageband
-* HardwareGrowler
 * Pixelmator
 * iNet Network Scanner
 * Microsoft Remote Desktop
 * Deliveries
 * Mindnode
 * Pocket
-* Stop the madness
-* Facebook Messenger
 * New File Menu
 * Tweetdeck
 
 # Other stuff to install manually
-* Company software (Office)
+* Company software (Office including teams)
 * Company Citrix and Cisco VPN
 * [NepTunes](https://micropixels.software/neptunes)
 * [Snap Camera](https://snapcamera.snapchat.com)
