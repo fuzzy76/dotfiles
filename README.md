@@ -22,7 +22,8 @@ A dotfiles repository is a repository for my personal configuration and computer
 4. Install XCode, run ```sudo xcodebuild -license``` and ```xcode-select --install```
 5. Open terminal and paste ```curl -s https://raw.githubusercontent.com/fuzzy76/dotfiles/master/scripts/start.sh | bash```
 6. Do the App store manual installs below
-7. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
+7. Move the SSB's to their correct destination
+8. Reboot (a lot of settings won't take effect until Finder etc has been restarted)
 
 # Components
 * scripts/start.sh - a bootstrap script for doing a one-line install (see point 5 above). Checks requirements, does a git clone and starts install.sh.
@@ -45,7 +46,6 @@ These will probably be moved to issues once I feel the repo is stable:
 * Github tokens for composer and homebrew.
 * Visual studio code extensions and settings sync
 * Automate crontab install
-* Install nativefier and auto run ssb script on install
 * Install App Store apps with [MAS](https://github.com/mas-cli/mas)
 
 # App store manual install

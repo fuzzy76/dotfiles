@@ -36,6 +36,7 @@ rm $HOME/.ssh/config ; ln -s $DOTFILES/link_special/ssh_config $HOME/.ssh/config
 # Run scripts
 source scripts/settings.sh
 source scripts/packages.sh
+source ssb/ssb
 
 # Package configuration
 phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
