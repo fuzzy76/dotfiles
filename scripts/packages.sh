@@ -14,9 +14,11 @@ fi
 packages=(
 ffmpeg
 hr htop-osx httpie
+imagemagick
 mtr
-nginx nmap
+nginx nmap node
 ocrmypdf
+php
 shellcheck ssh-copy-id
 terminal-notifier the_silver_searcher
 wget
@@ -45,7 +47,7 @@ iina itsycal
 java
 kobo
 libreoffice logitech-gaming-software logitech-options
-makemkv microsoft-teams meetingbar
+makemkv meetingbar messenger
 omnidisksweeper
 qlstephen qlmarkdown quicklook-json
 sequel-ace shapes signal skype-for-business speedcrunch steam
@@ -62,6 +64,9 @@ done
 
 # Gems
 # sudo gem install pro
+
+# Node
+npm install -g nativefier
 
 # Composer
 curl -sS https://getcomposer.org/installer | php
