@@ -55,7 +55,7 @@ tableplus telegram tenor the-unarchiver typora
 unlox
 virtualbox virtualbox-extension-pack visual-studio-code vlc
 wordservice
-zoomus
+zoom
 )
 for item in ${packages[*]}
 do
