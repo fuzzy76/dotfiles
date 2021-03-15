@@ -38,19 +38,19 @@ brew tap homebrew/cask-drivers
 packages=(
 apptivate adobe-digital-editions asix-ax88179 advancedrestclient
 basecamp calibre
-coteditor cyberduck
+cold-turkey-blocker coteditor cyberduck
 dash docker dozer discord dupeguru
-firefox focus
+firefox
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey
 iina itsycal
 java
 kobo
-libreoffice logitech-gaming-software logitech-options
+latest libreoffice logitech-gaming-software logitech-options
 makemkv meetingbar messenger
 omnidisksweeper
 qlstephen qlmarkdown quicklook-json
-sequel-ace shapes signal skype-for-business speedcrunch steam
+sequel-ace shapes signal speedcrunch steam
 tableplus telegram tenor the-unarchiver typora
 unlox
 virtualbox virtualbox-extension-pack visual-studio-code vlc
