@@ -40,7 +40,7 @@ apptivate adobe-digital-editions asix-ax88179 advancedrestclient
 basecamp calibre
 cold-turkey-blocker coteditor cyberduck
 dash docker dozer discord dupeguru
-firefox
+ferdi firefox
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey
 iina itsycal
