@@ -106,3 +106,13 @@ These will probably be moved to issues once I feel the repo is stable:
 0 0 * * 0 cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_w_$(date +'%V').plist
 55 15 * * * /usr/local/bin/terminal-notifier -message 'Pakke sammen' -title 'Påminnelse' -sound default -appIcon /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Actions.icns -ignoreDnD >/dev/null
 ```
+
+# Regular computer "sync"
+
+- Remove unused packages
+- Review installed homebrew casks for inclusion
+- Review /Applications for inclusion
+- Review menubar for inclusion
+- Remove login items for inclusion
+- Review all repos and push changes
+- Review App Store items for cask candidates
