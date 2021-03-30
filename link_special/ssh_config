@@ -11,4 +11,4 @@ Host bertha
 
 Host *.iktsenteret.c.bitbit.net
     AddressFamily inet
-
+    User havard
