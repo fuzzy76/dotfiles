@@ -1,6 +1,8 @@
 ServerAliveInterval 30
 TCPKeepAlive yes
 
+# Private hosts
+
 Host matilda
     Hostname matilda.fuzzy76.net
     User fuzzy76
@@ -9,6 +11,12 @@ Host bertha
     Hostname bertha.fuzzy76.net
     User fuzzy76
 
-Host *.iktsenteret.c.bitbit.net
+# KompetanseNorge hosts
+
+Host havard-tuxburk
+    User fuzzy76
+
+Host datakollektiv01-* utdanning01-* bratteli
+    Hostname %h.iktsenteret.c.bitbit.net
     AddressFamily inet
     User havard
