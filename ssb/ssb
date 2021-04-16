@@ -15,5 +15,5 @@ nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --t
 nativefier --name "Do nothing for 2 minutes" --icon icons/calm.png --fast-quit --full-screen --hide-window-frame --title-bar-style hidden --disable-context-menu --single-instance http://www.donothingfor2minutes.com tmp/
 nativefier --name "Brain.fm" --icon icons/brainfm.png --single-instance https://www.brain.fm/ tmp/
 nativefier --name "GTD Daily Review" --icon /Users/hpe001/repos/dotfiles/ssb/icons/gtd-logo.png --fast-quit --title-bar-style hidden --single-instance https://nicegist.github.io/bb68ea80e02f69aa22318e9036e276cf tmp/
-nativefier --name "Microsoft Teams UiT" 'https://teams.microsoft.com/_?tenantId=4e7f212d-74db-4563-a57b-8ae44ed05526' --counter --bounce --single-instance --internal-urls '.*'
+nativefier --name "Microsoft Teams UiT" 'https://teams.microsoft.com/_?tenantId=4e7f212d-74db-4563-a57b-8ae44ed05526' --counter --bounce --single-instance --internal-urls '.*' tmp/
 
