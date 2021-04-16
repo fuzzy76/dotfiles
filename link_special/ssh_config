@@ -1,5 +1,7 @@
-ServerAliveInterval 30
-TCPKeepAlive yes
+Host *
+    ServerAliveInterval 30
+    ServerAliveCountMax 3
+    SendEnv -LANG -LC_*
 
 # Private hosts
 
