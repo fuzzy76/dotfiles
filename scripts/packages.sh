@@ -49,8 +49,8 @@ kobo
 latest libreoffice logitech-gaming-software logitech-options
 makemkv meetingbar messenger
 omnidisksweeper
-qlstephen qlmarkdown quicklook-json
-sequel-ace shapes signal speedcrunch steam
+qlstephen quicklook-json
+sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
 tableplus telegram tenor the-unarchiver typora
 unlox
 virtualbox virtualbox-extension-pack visual-studio-code vlc
