@@ -6,11 +6,11 @@ Host *
 # Private hosts
 
 Host matilda
-    Hostname matilda.fuzzy76.net
+    HostName matilda.fuzzy76.net
     User fuzzy76
 
 Host bertha
-    Hostname bertha.fuzzy76.net
+    HostName bertha.fuzzy76.net
     User fuzzy76
 
 # KompetanseNorge hosts
@@ -19,6 +19,10 @@ Host havard-tuxburk
     User havardp
 
 Host datakollektiv01-* utdanning01-* bratteli
-    Hostname %h.iktsenteret.c.bitbit.net
+    HostName %h.iktsenteret.c.bitbit.net
     AddressFamily inet
     User havard
+
+Host havard-tuxburk
+    HostName havard-tuxburk
+    User havardp
