@@ -47,7 +47,7 @@ iina itsycal
 java
 kobo
 latest libreoffice logitech-gaming-software logitech-options
-makemkv meetingbar messenger
+makemkv messenger
 omnidisksweeper
 qlstephen quicklook-json
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
