@@ -46,7 +46,7 @@ handbrake hex-fiend hey
 iina itsycal
 java
 kobo
-latest libreoffice logitech-gaming-software logitech-options
+latest libreoffice logitech-g-hub logitech-options
 makemkv messenger
 omnidisksweeper
 qlstephen quicklook-json
