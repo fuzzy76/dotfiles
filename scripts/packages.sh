@@ -35,13 +35,13 @@ done
 
 # Homebrew cask
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
 packages=(
 apptivate adobe-digital-editions asix-ax88179 advancedrestclient
 basecamp calibre
 cold-turkey-blocker coteditor cyberduck
 dash docker dozer discord dupeguru
-ferdi firefox
-homebrew/cask-fonts/font-sf-mono
+ferdi firefox font-sf-mono font-sf-pro
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey
 iina itsycal
