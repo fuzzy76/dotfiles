@@ -41,6 +41,7 @@ basecamp calibre
 cold-turkey-blocker coteditor cyberduck
 dash docker dozer discord dupeguru
 ferdi firefox
+homebrew/cask-fonts/font-sf-mono
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey
 iina itsycal
