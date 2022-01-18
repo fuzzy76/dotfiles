@@ -62,6 +62,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Pocket
 * New File Menu
 * Tweetdeck
+* Jiffy
 
 # Other stuff to install manually
 * Company software (Office including teams)
