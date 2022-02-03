@@ -6,7 +6,6 @@ softwareupdate -l
 echo "*** Homebrew"
 brew update # Update homebrew recipes
 brew upgrade # Upgrade software
-brew upgrade --cask # Upgrade desktop apps
 brew cleanup # Remove old/obsolete versions from cellar
 brew doctor # Report any potential problems
 
