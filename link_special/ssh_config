@@ -16,7 +16,7 @@ Host bertha
 # KompetanseNorge hosts
 
 Host havard-tuxburk
-    User havardp
+    User fuzzy76
 
 Host datakollektiv01-* utdanning01-* bratteli
     HostName %h.iktsenteret.c.bitbit.net
