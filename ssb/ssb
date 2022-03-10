@@ -13,5 +13,5 @@
 mkdir tmp/
 nativefier --name "The Lounge" --icon icons/thelounge.png --counter --bounce --title-bar-style hidden --single-instance https://chat.fuzzy76.net/ tmp/
 nativefier --name "Do nothing for 2 minutes" --icon icons/calm.png --fast-quit --full-screen --hide-window-frame --title-bar-style hidden --disable-context-menu --single-instance http://www.donothingfor2minutes.com tmp/
-nativefier --name "Brain.fm" --icon icons/brainfm.png --single-instance https://www.brain.fm/ tmp/
+nativefier --name "Brain.fm" --icon icons/brainfm.png --single-instance --tray start-in-tray https://www.brain.fm/ tmp/
 nativefier --name "Jira Utdanning.no" --counter --bounce --single-instance 'https://kompetansenorge.atlassian.net/jira/' tmp/
