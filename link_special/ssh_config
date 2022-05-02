@@ -2,6 +2,8 @@ Host *
     ServerAliveInterval 30
     ServerAliveCountMax 3
     SendEnv -LANG -LC_*
+    AddKeysToAgent yes
+    UseKeychain yes
 
 # Private hosts
 
