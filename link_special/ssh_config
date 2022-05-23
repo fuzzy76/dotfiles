@@ -20,6 +20,11 @@ Host bertha
 Host havard-tuxburk
     User fuzzy76
 
+Host uno_beta
+    Hostname utdanning01-beta.iktsenteret.c.bitbit.net
+    AddressFamily inet
+    User havard
+
 Host !*.c.bitbit.net datakollektiv01-* utdanning01-* tools-prod0* tools01-* bratteli
     HostName %h.iktsenteret.c.bitbit.net
     AddressFamily inet
