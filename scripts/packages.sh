@@ -37,13 +37,13 @@ done
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 packages=(
-apptivate adobe-digital-editions asix-ax88179 advancedrestclient
+apptivate adobe-digital-editions
 basecamp
 calibre cheatsheet cold-turkey-blocker coteditor cyberduck
 dash docker dozer discord dupeguru
-ferdi firefox font-sf-mono font-sf-pro
+firefox font-sf-mono font-sf-pro
 garmin-express gas-mask google-chrome
-handbrake hex-fiend hey
+handbrake hex-fiend hey httpie
 iina itsycal
 java
 kobo
@@ -52,9 +52,9 @@ makemkv messenger
 omnidisksweeper
 qlstephen quicklook-json
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
-tableplus telegram tenor the-unarchiver typora
-unlox
-virtualbox virtualbox-extension-pack visual-studio-code vlc
+tableplus telegram tenor the-unarchiver
+unetbootin unlox utm
+visual-studio-code vlc
 wordservice
 zoom
 )

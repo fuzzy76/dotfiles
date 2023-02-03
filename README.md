@@ -51,18 +51,18 @@ These will probably be moved to issues once I feel the repo is stable:
 # App store manual install
 * 1Blocker
 * Bookmarker for pinboard
-* Keynote, Numbers, Pages
+* Consent-O-Matic
+* Deliveries
 * Divvy
 * Garageband
-* Pixelmator
 * iNet Network Scanner
+* Keynote, Numbers, Pages
 * Microsoft Remote Desktop
-* Deliveries
 * Mindnode
-* Pocket
 * New File Menu
-* Tweetdeck
-* Jiffy
+* Pixelmator
+* Pocket
+* Shareful
 
 # Other stuff to install manually
 * Company software (Office including teams)
@@ -86,10 +86,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Transfer ssh key if desired
 * Save any virtual machines
 * iTunes library
-* ~/Library/Preferences/com.sequelpro.SequelPro.plist and ~/Library/Application\ Support/Sequel\ Pro
-* crontab
-* Omnifocus archive file (File -> Show "Omnifocus.ofocus in Finder", Archive.ofocus-archive)
-* Check repositories for uncommited changes
+* Check repositories for uncommited changes (`gitall status`)
 
 # Linkdump
 * https://github.com/herrbischoff/awesome-osx-command-line
