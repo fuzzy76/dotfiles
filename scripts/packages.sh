@@ -13,6 +13,7 @@ if ! brew doctor ; then
   read -p "Press [Enter] key to continue..."
 fi
 packages=(
+composer
 ffmpeg
 hr htop-osx httpie
 imagemagick
@@ -71,8 +72,6 @@ done
 npm install -g nativefier
 
 # Composer
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
 packages=("psy/psysh" "squizlabs/php_codesniffer=*")
 for item in ${packages[*]}
 do
