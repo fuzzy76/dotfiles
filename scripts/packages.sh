@@ -5,7 +5,7 @@ export PATH="$HOME/repos/dotfiles/bin:$HOME/bin:$HOME/.composer/vendor/bin:/usr/
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 if ! brew doctor ; then
   echo "If the above does not look correct, fix it before continuing."
