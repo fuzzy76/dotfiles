@@ -54,7 +54,7 @@ makemkv messenger
 omnidisksweeper
 qlstephen quicklook-json
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
-tableplus telegram tenor the-unarchiver
+tableplus telegram tenor the-unarchiver thingsmacsandboxhelper
 unetbootin unlox utm
 visual-studio-code vlc
 wordservice
