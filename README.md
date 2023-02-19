@@ -55,22 +55,15 @@ These will probably be moved to issues once I feel the repo is stable:
 * Consent-O-Matic
 * Deliveries
 * Divvy
-* Garageband
 * iNet Network Scanner
-* Keynote, Numbers, Pages
-* Microsoft Remote Desktop
 * Mindnode
-* New File Menu
-* Pixelmator
+* Neptunes
+* Pixelmator Classic
 * Pocket
 * Shareful
 
 # Other stuff to install manually
 * Company software (Office including teams)
-* Company Citrix and Cisco VPN
-* [NepTunes](https://micropixels.software/neptunes)
-* [Snap Camera](https://snapcamera.snapchat.com)
-* [HP Photosmart 7510 drivers](https://support.hp.com/no-no/drivers/selfservice/hp-photosmart-7510-e-all-in-one-printer-series-c311/5070118/model/5070120)
 
 # Settings I couldn't automate
 * Mission control on mousebutton 4
