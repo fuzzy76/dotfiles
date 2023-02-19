@@ -61,6 +61,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Pixelmator Classic
 * Pocket
 * Shareful
+* Things
 
 # Other stuff to install manually
 * Company software (Office including teams)
