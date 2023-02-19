@@ -20,6 +20,7 @@ A dotfiles repository is a repository for my personal configuration and computer
 2. Open App store, install all updates.
 3. If you want to use an existing key, install it before proceeding (chmod 700).
 4. Install XCode, run ```sudo xcodebuild -license``` and ```xcode-select --install```
+5. Install Rosetta2, run ```sudo softwareupdate --install-rosetta```
 5. Open terminal and paste ```curl -s https://raw.githubusercontent.com/fuzzy76/dotfiles/master/scripts/start.sh | bash```
 6. Do the App store manual installs below
 7. Move the SSB's to their correct destination
@@ -109,6 +110,6 @@ These will probably be moved to issues once I feel the repo is stable:
 - Review installed homebrew casks for inclusion
 - Review /Applications for inclusion
 - Review menubar for inclusion
-- Remove login items for inclusion
+- Review login items for inclusion
 - Review all repos and push changes
 - Review App Store items for cask candidates
