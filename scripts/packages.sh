@@ -6,7 +6,8 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 if ! brew doctor ; then
   echo "If the above does not look correct, fix it before continuing."
   read -p "Press [Enter] key to continue..."
