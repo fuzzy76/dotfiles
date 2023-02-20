@@ -72,6 +72,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Change menubar clock from weekday to date
 * Change Finder sidepanel to point to all PARA file roots
 * Change Safari to save to Desktop
+* Import Dracula color theme to terminal.app, set black background and 90% opacity.
 
 # Personal pre-reinstall checklist
 * Check all folders under ~

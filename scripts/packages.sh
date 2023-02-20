@@ -38,11 +38,12 @@ done
 # Homebrew cask
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
+brew tap dracula/install
 packages=(
 apptivate adobe-digital-editions
 basecamp
 calibre cheatsheet cold-turkey-blocker coteditor cyberduck
-dash docker dozer discord dupeguru
+dash dracula-terminal docker dozer discord dupeguru
 firefox font-sf-mono font-sf-pro
 garmin-express gas-mask google-chrome
 handbrake hex-fiend hey httpie
