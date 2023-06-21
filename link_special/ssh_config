@@ -25,7 +25,7 @@ Host uno_beta
     AddressFamily inet
     User havard
 
-Host !*.c.bitbit.net datakollektiv01-* utdanning01-* tools-prod0* tools01-* bratteli
+Host !*.c.bitbit.net datakollektiv01-* utdanning01-* utdanning02-* tools-prod0* tools01-* bratteli
     HostName %h.iktsenteret.c.bitbit.net
     AddressFamily inet
     User havard
