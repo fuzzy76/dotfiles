@@ -15,7 +15,7 @@ fi
 packages=(
 composer
 ffmpeg
-hr htop-osx httpie
+hr htop-osx
 imagemagick
 mtr
 nginx nmap node
