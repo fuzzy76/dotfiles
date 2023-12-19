@@ -21,7 +21,7 @@ mtr
 nginx nmap node
 ocrmypdf
 php
-shellcheck ssh-copy-id
+shellcheck
 terminal-notifier the_silver_searcher
 wget
 youtube-dl
