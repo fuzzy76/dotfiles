@@ -39,6 +39,7 @@ done
 brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 brew tap dracula/install
+brew tap sokoloffa/radiola
 packages=(
 apptivate adobe-digital-editions
 basecamp
@@ -54,6 +55,7 @@ latest libreoffice logitech-g-hub logi-options-plus
 makemkv messenger
 omnidisksweeper
 qlstephen quicklook-json
+radiola
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
 tableplus tenor the-unarchiver thingsmacsandboxhelper
 unetbootin unlox utm
@@ -63,7 +65,7 @@ zoom
 )
 for item in ${packages[*]}
 do
-  brew install --cask $item
+  brew install --cask --no-quarantine $item
 done
 
 # Gems
