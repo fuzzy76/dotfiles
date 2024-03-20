@@ -45,7 +45,7 @@ apptivate adobe-digital-editions
 calibre cheatsheet coteditor cyberduck
 dash dracula-terminal docker dozer discord dupeguru
 firefox focus font-sf-mono font-sf-pro
-garmin-express gas-mask google-chrome
+garmin-express gas-mask gitify google-chrome
 handbrake hex-fiend httpie
 iina itsycal
 java
