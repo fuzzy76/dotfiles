@@ -20,10 +20,6 @@ composer global update # Upgrade any global packages
 echo "*** Gem update"
 gem update --system
 
-echo "*** Npm update"
-npm install npm -g
-npm update -g
-
 echo "*** Dotfiles repo"
 cd $HOME/repos/dotfiles || exit;
 git pull ; git commit -a ; git push

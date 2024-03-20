@@ -18,7 +18,7 @@ ffmpeg
 hr htop-osx
 imagemagick
 mtr
-nginx nmap node
+nginx nmap
 ocrmypdf
 php
 shellcheck
@@ -70,9 +70,6 @@ done
 
 # Gems
 # sudo gem install pro
-
-# Node
-npm install -g nativefier
 
 # Composer
 packages=("psy/psysh" "squizlabs/php_codesniffer=*")
