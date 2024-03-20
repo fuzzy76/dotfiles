@@ -17,9 +17,6 @@ echo "*** Composer update"
 composer selfupdate # Upgrade composer
 composer global update # Upgrade any global packages
 
-echo "*** Gem update"
-gem update --system
-
 echo "*** Dotfiles repo"
 cd $HOME/repos/dotfiles || exit;
 git pull ; git commit -a ; git push

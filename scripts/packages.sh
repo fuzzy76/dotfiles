@@ -68,9 +68,6 @@ do
   brew install --cask --no-quarantine $item
 done
 
-# Gems
-# sudo gem install pro
-
 # Composer
 packages=("psy/psysh" "squizlabs/php_codesniffer=*")
 for item in ${packages[*]}
