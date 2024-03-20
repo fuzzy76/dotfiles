@@ -22,9 +22,9 @@ nginx nmap
 ocrmypdf
 php
 shellcheck
-terminal-notifier the_silver_searcher
+the_silver_searcher
 wget
-youtube-dl
+yt-dlp
 )
 for item in ${packages[*]}
 do
@@ -42,12 +42,11 @@ brew tap dracula/install
 brew tap sokoloffa/radiola
 packages=(
 apptivate adobe-digital-editions
-basecamp
-calibre cheatsheet cold-turkey-blocker coteditor cyberduck
+calibre cheatsheet coteditor cyberduck
 dash dracula-terminal docker dozer discord dupeguru
-firefox font-sf-mono font-sf-pro
+firefox focus font-sf-mono font-sf-pro
 garmin-express gas-mask google-chrome
-handbrake hex-fiend hey httpie
+handbrake hex-fiend httpie
 iina itsycal
 java
 kobo
@@ -57,7 +56,7 @@ omnidisksweeper
 qlstephen quicklook-json
 radiola
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
-tableplus tenor the-unarchiver thingsmacsandboxhelper
+tableplus the-unarchiver thingsmacsandboxhelper
 unetbootin unlox utm
 visual-studio-code vlc
 wordservice
