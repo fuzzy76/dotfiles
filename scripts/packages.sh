@@ -20,7 +20,7 @@ imagemagick
 mtr
 nginx nmap
 ocrmypdf
-php
+php pyenv
 shellcheck
 the_silver_searcher
 wget
