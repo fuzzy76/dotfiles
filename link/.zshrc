@@ -49,3 +49,5 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 # export PS1="[\u@\h:\W\$(git-radar --bash --fetch)] "
 # export PROMPT="$PROMPT\$(git-radar --zsh --fetch) "
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+

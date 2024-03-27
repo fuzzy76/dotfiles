@@ -9,16 +9,9 @@ Host *
 
 Host matilda
     HostName matilda.fuzzy76.net
-    User fuzzy76
 
 Host bertha
     HostName bertha.fuzzy76.net
-    User fuzzy76
-
-# KompetanseNorge hosts
-
-Host havard-tuxburk
-    User fuzzy76
 
 Host uno_beta
     Hostname utdanning01-beta.iktsenteret.c.bitbit.net
@@ -34,6 +27,7 @@ Host *.c.bitbit.net
     AddressFamily inet
     User havard
 
-Host havard-tuxburk
-    HostName havard-tuxburk
-    User havardp
+Host py_solr_indexer_deploy
+    Hostname github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
