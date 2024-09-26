@@ -42,6 +42,7 @@ brew tap dracula/install
 brew tap sokoloffa/radiola
 packages=(
 apptivate adobe-digital-editions
+boop
 calibre cheatsheet coteditor cyberduck
 dash dracula-terminal docker dozer discord dupeguru
 firefox focus font-sf-mono font-sf-pro
