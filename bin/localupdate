@@ -3,6 +3,9 @@
 echo "*** Launch Latest.app"
 open /Applications/Latest.app 
 
+echo "*** Microsoft Autoupdate"
+open /Library/Application\ Support/Microsoft/MAU2.0/Microsoft\ AutoUpdate.app
+
 echo "*** App store update"
 softwareupdate -l
 
