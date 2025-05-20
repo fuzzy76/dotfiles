@@ -48,6 +48,9 @@ These will probably be moved to issues once I feel the repo is stable:
 * Visual studio code extensions and settings sync
 * Automate crontab install
 * Install App Store apps with [MAS](https://github.com/mas-cli/mas)
+* Add Plain Text Editor
+* Fix symfony-cli to use core repo
+* Figure out httpie link confusion issues
 
 # App store manual install
 * 1Blocker
@@ -82,6 +85,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Save any virtual machines
 * iTunes library
 * Check repositories for uncommited changes (`gitall status`)
+* Check homebrew warnings for deprecated formulas
 
 # Linkdump
 * https://github.com/herrbischoff/awesome-osx-command-line
