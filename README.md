@@ -51,6 +51,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Add Plain Text Editor
 * Fix symfony-cli to use core repo
 * Figure out httpie link confusion issues
+* Catppucin terminal
 
 # App store manual install
 * 1Blocker
