@@ -95,9 +95,9 @@ These will probably be moved to issues once I feel the repo is stable:
 
 # Crontab
 ```
-0 0 * * * cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_d_$(date +'%A').plist
-0 0 * * 0 cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_w_$(date +'%V').plist
-55 15 * * * /usr/local/bin/terminal-notifier -message 'Pakke sammen' -title 'Påminnelse' -sound default -appIcon /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Actions.icns -ignoreDnD >/dev/null
+# 0 0 * * * cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_d_$(date +'%A').plist
+# 0 0 * * 0 cp /Users/fuzzy76/Library/Safari/Bookmarks.plist /Users/fuzzy76/backup/Safari_Bookmarks_w_$(date +'%V').plist
+0 7 * * * /usr/bin/killall exchangesyncd > /dev/null 2>&1
 ```
 
 # Regular computer "sync"
