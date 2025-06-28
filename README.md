@@ -63,6 +63,7 @@ These will probably be moved to issues once I feel the repo is stable:
 * Mindnode
 * Neptunes
 * Pixelmator Classic
+* Quickgif
 * [Save to Pocket](https://apps.apple.com/no/app/save-to-pocket/id1477385213?l=nb&mt=12)
 * Shareful
 * Things
