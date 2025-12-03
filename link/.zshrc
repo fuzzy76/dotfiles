@@ -16,6 +16,7 @@ export LANG=no_NO.UTF-8
 
 PROMPT_TITLE='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND="${PROMPT_TITLE}; ${PROMPT_COMMAND}"
+export PROMPT='%F{yellow}%n@%m:%~%f %# '
 
 ###############
 # Autocomplete
