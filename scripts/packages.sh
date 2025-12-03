@@ -44,9 +44,9 @@ packages=(
 apptivate adobe-digital-editions
 boop
 calibre cheatsheet coteditor cyberduck
-dash dracula-terminal docker dozer discord dupeguru
+dash dracula-terminal docker dozer discord
 firefox focus font-sf-mono font-sf-pro
-garmin-express gas-mask gitify google-chrome
+gas-mask gitify google-chrome
 handbrake hex-fiend httpie
 iina itsycal
 java
@@ -58,7 +58,7 @@ qlstephen quicklook-json
 radiola
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
 tableplus the-unarchiver thingsmacsandboxhelper
-unetbootin unlox utm
+utm
 visual-studio-code vlc
 wordservice
 zoom
