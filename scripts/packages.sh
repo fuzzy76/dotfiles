@@ -57,7 +57,7 @@ omnidisksweeper
 qlstephen quicklook-json
 radiola
 sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
-tableplus the-unarchiver thingsmacsandboxhelper
+tablepro the-unarchiver thingsmacsandboxhelper
 utm
 visual-studio-code vlc
 wordservice
