@@ -31,8 +31,7 @@ zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f
 ##########
 
 alias gitall="ls | xargs -t -I{} git -C {}"
-alias typora="open -a typora"
-alias bertha="sudo mkdir /Volumes/bertha ; sudo chown fuzzy76 /Volumes/bertha ; sudo mount_nfs -o rw,bg,hard,resvport,intr,ac,nfc,tcp bertha.local:/volume1/fuzzy76/ /Volumes/bertha/"
+alias finished="terminal-notifier -message 'Job done' -sound default"
 
 #-P10
 ############
