@@ -30,8 +30,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then . $(brew --prefix)/etc/bash
 ##########
 
 alias gitall="ls | xargs -t -I{} git -C {}"
-alias typora="open -a typora"
-alias bertha="sudo mkdir /Volumes/bertha ; sudo chown fuzzy76 /Volumes/bertha ; sudo mount_nfs -o rw,bg,hard,resvport,intr,ac,nfc,tcp bertha.local:/volume1/fuzzy76/ /Volumes/bertha/"
+alias finished="terminal-notifier -message 'Job done' -sound default"
 
 #-P10
 ############
