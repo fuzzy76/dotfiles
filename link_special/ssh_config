@@ -7,8 +7,13 @@ Host *
 
 # Private hosts
 
+Host gammelmatilda
+    HostName old.fuzzy76.net
+
 Host matilda
     HostName matilda.fuzzy76.net
+    User debian
+    IdentityFile ~/.ssh/matilda_nordhost.rsa
 
 Host bertha
     HostName bertha.fuzzy76.net
