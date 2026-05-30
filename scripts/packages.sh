@@ -53,10 +53,11 @@ java
 kobo
 latest libreoffice logitech-g-hub logi-options-plus
 makemkv messenger
+numi
 omnidisksweeper
 qlstephen quicklook-json
 radiola
-sbarex-qlmarkdown sequel-ace shapes signal speedcrunch steam
+sbarex-qlmarkdown sequel-ace shapes signal steam
 tablepro the-unarchiver thingsmacsandboxhelper
 utm
 visual-studio-code vlc
